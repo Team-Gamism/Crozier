@@ -11,12 +11,14 @@ public class move : MonoBehaviour
 
     Vector3 target;
     bool isMoving;
+
+    List<int> ints = new List<int>();
     public void MoveButton()
     {
         if (isMoving)
             return;
 
-        if (idx >= mapTile.Length - 1)
+        if (idx >= mapTile.Length)
             idx = 0;
         StartCoroutine(moveBlockTime(idx));
         idx++;
