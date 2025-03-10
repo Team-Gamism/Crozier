@@ -2,27 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move : MonoBehaviour
+public class Move : MonoBehaviour
 {
     [SerializeField] private Transform[] mapTile;
     private int idx = 1;
 
     [SerializeField] private float moveTime;
 
-    Vector3 target;
     bool isMoving;
     public void MoveButton()
     {
         if (isMoving)
             return;
 
-        if (idx >= mapTile.Length - 1)
+        if (idx >= mapTile.Length)
             idx = 0;
-        StartCoroutine(moveBlockTime(idx));
+        StartCoroutine(MoveBlockTime(idx));
         idx++;
     }
 
-    private IEnumerator moveBlockTime(int idx)
+    private IEnumerator MoveBlockTime(int idx)
     {
         isMoving = true;
 
