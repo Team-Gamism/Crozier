@@ -5,9 +5,9 @@ public class Dice : MonoBehaviour, ITouchable
     public int num;
     public void Clicked()
     {
-        if (!Move.instance.isMoving)
+        if (!move.instance.isMoving)
         {
-            Move.instance.MoveButton(num);
+            move.instance.MoveButton(num);
             Destroy(gameObject);
         }
     }

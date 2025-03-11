@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Move : MonoBehaviour
+public class move : MonoBehaviour
 {
-    public static Move instance;
+    public static move instance;
 
     [SerializeField] private Transform[] mapTile;
     public int idx = 1;
