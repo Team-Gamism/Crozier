@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Touchable
   - 
   - 
   - 
@@ -41,7 +41,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Fight_Obj
+  - name: Obj
     uniqueID: 2914676403
     locked: 0
   m_RenderingLayers:

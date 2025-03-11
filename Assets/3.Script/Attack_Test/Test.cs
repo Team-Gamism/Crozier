@@ -6,5 +6,6 @@ public class Test : MonoBehaviour
     public void Attack()
     {
         enemy.TakeDamage(1);
+
     }
 }

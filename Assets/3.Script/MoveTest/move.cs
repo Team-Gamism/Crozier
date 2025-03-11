@@ -4,41 +4,50 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
+    public static Move instance;
+
     [SerializeField] private Transform[] mapTile;
-    private int idx = 1;
+    public int idx = 1;
 
     [SerializeField] private float moveTime;
 
-    bool isMoving;
-    public void MoveButton()
+    public bool isMoving;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    public void MoveButton(int n)
     {
         if (isMoving)
             return;
 
-        if (idx >= mapTile.Length)
-            idx = 0;
-        StartCoroutine(MoveBlockTime(idx));
-        idx++;
+        StartCoroutine(MoveBlockTime(idx, n));
     }
 
-    private IEnumerator MoveBlockTime(int idx)
+    private IEnumerator MoveBlockTime(int idxc, int n)
     {
         isMoving = true;
-
-        float elapsedTime = 0.0f;
-
-        Vector3 currentPosition = transform.position;
-        Vector3 targetPosition = mapTile[idx].position;
-
-        while (elapsedTime < moveTime)
+        for (int i = 0; i < n; i++)
         {
-            transform.position = Vector3.Lerp(currentPosition, targetPosition, elapsedTime / moveTime);
-            elapsedTime += Time.deltaTime;
-            yield return null;
+
+            float elapsedTime = 0.0f;
+
+            Vector3 currentPosition = transform.position;
+            Vector3 targetPosition = mapTile[idxc % mapTile.Length].position;
+
+            while (elapsedTime < moveTime)
+            {
+                transform.position = Vector3.Lerp(currentPosition, targetPosition, elapsedTime / moveTime);
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+
+            transform.position = targetPosition;
+            idx++;
+            idxc++;
         }
-
-        transform.position = targetPosition;
-
         isMoving = false;
     }
 }
