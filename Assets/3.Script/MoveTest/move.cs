@@ -22,10 +22,7 @@ public class Move : MonoBehaviour
     {
         if (isMoving)
             return;
-        if (TurnController.Instance.Stamina == 0)
-            return;
 
-        TurnController.Instance.Stamina--;
         StartCoroutine(MoveBlockTime(idx, n));
     }
 

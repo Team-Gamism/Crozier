@@ -8,29 +8,13 @@ public class TurnController : MonoBehaviour
     public static TurnController Instance { get { return instance; } }
     private static TurnController instance;
 
-    private int maxStamina = 4;
-    public int Stamina
-    {
-        get => stamina;
-        set
-        {
-            stamina = Mathf.Clamp(value, 0, maxStamina);
-            staminaBar.value = Stamina;
-        }
-    }
-    private int stamina;
-
     List<UnityEvent> enemyEvents;
 
     public BundleSO dices;
     public Transform[] diceViews;
-
-    [SerializeField] Slider staminaBar;
-
     private void Awake()
     {
         instance = this;
-        Stamina = maxStamina;
     }
 
     int turnCnt = 1;
@@ -41,8 +25,6 @@ public class TurnController : MonoBehaviour
         if (turnCnt % 2 == 0)
         {
             RollDice();
-
-            Stamina = maxStamina;
         }
     }
 
