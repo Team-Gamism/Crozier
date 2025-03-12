@@ -49,5 +49,6 @@ public class move : MonoBehaviour
             idxc++;
         }
         isMoving = false;
+        ModuleController.Instance.GetModuleImformationToTile(idx % mapTile.Length);
     }
 }
