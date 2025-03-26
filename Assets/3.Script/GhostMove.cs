@@ -2,7 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class MoveTest : MonoBehaviour
+public class GhostMove : MonoBehaviour
 {
     bool isMoving;
     public float speed;
@@ -10,9 +10,16 @@ public class MoveTest : MonoBehaviour
     Vector3 dirVec;
     Vector3 targetPos;
 
+    Possess possess;
+
+    private void Start()
+    {
+        possess = GetComponent<Possess>();
+    }
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && !possess.isPossessing)
         {
             targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPos = new Vector3(targetPos.x, targetPos.y);
@@ -28,8 +35,9 @@ public class MoveTest : MonoBehaviour
             if (Vector3.Distance(targetPos, transform.position) <= 0.1f)
             {
                 isMoving = false;
-
                 transform.position = targetPos;
+
+                possess.DetectPossessableObject();
             }
         }
     }
