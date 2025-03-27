@@ -7,8 +7,6 @@ public class Possess : MonoBehaviour
     [SerializeField] LayerMask layerMask;
     private SpriteRenderer spriteRenderer;
 
-    public bool isPossessing;
-
     private void Awake()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
@@ -22,7 +20,7 @@ public class Possess : MonoBehaviour
             if (collider2D[0].TryGetComponent<IPossessable>(out var entity))
             {
                 spriteRenderer.enabled = false;
-                isPossessing = true;
+                PossessManager.Instance.isPossessing = true;
             }
         }
     }
