@@ -19,7 +19,7 @@ public class GhostMove : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1) && !possess.isPossessing)
+        if (Input.GetMouseButtonDown(0) && !possess.isPossessing)
         {
             targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPos = new Vector3(targetPos.x, targetPos.y);

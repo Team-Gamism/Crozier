@@ -11,12 +11,12 @@ public class Possess : MonoBehaviour
 
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     public void DetectPossessableObject()
     {
-        Collider2D[] collider2D = Physics2D.OverlapBoxAll(transform.position, Vector3.one, 0f, layerMask, -1, 1);
+        Collider2D[] collider2D = Physics2D.OverlapBoxAll(transform.position, Vector3.one/10, 0f, layerMask, -1, 1);
         if (collider2D.Length >= 1)
         {
             if (collider2D[0].TryGetComponent<IPossessable>(out var entity))
