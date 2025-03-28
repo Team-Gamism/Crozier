@@ -2,7 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class GhostMove : MonoBehaviour
+public class GhostMove : MonoBehaviour, IMovable
 {
     bool isMoving;
     public float speed;
@@ -17,7 +17,7 @@ public class GhostMove : MonoBehaviour
         possess = GetComponent<Possess>();
     }
 
-    void Update()
+    public void Move()
     {
         if (Input.GetMouseButtonDown(0) && !PossessManager.Instance.isPossessing)
         {
