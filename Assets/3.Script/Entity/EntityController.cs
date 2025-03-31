@@ -48,6 +48,11 @@ public class EntityController : MonoBehaviour
         yield break;
     }
 
+    public void TakeDamage(float damage)
+    {
+        CurHp -= damage;
+    }
+
     void Die()
     {
         Destroy(gameObject);
