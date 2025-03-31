@@ -8,15 +8,17 @@ public class EntityController : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Animator anim;
 
-    public float CurHp { get { return curHp; }  set { curHp = value; if (curHp <= 0) Die(); } }
+    public float CurHp { get { return curHp; }  set { curHp = Mathf.Clamp(value,value,maxHp); if (curHp <= 0) Die(); } }
     float curHp;
+    public float maxHp;
 
     Vector3 spawnPos;
     Vector3 moveTarget;
 
     private void Start()
     {
-        curHp = entitySO.maxHp;
+        maxHp = entitySO.maxHp;
+        CurHp = maxHp;
         spawnPos = transform.position;
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
