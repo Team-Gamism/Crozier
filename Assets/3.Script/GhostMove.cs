@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GhostMove : MonoBehaviour, IMovable
 {
-    bool isMoving;
     public float speed;
 
     Vector3 dirVec;
@@ -19,22 +18,22 @@ public class GhostMove : MonoBehaviour, IMovable
 
     public void Move()
     {
-        if (Input.GetMouseButtonDown(0) && !PossessManager.Instance.isPossessing)
+        if (Input.GetMouseButtonDown(0) && !GhostManager.Instance.isPossessing)
         {
             targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPos = new Vector3(targetPos.x, targetPos.y);
 
-            isMoving = true;
+            GhostManager.Instance.isMoving = true;
             dirVec = GetDirVec();
         }
 
-        if (isMoving)
+        if (GhostManager.Instance.isMoving)
         {
             transform.Translate(dirVec * speed * Time.deltaTime);
 
             if (Vector3.Distance(targetPos, transform.position) <= 0.1f)
             {
-                isMoving = false;
+                GhostManager.Instance.isMoving = false;
                 transform.position = targetPos;
 
                 possess.DetectPossessableObject();
