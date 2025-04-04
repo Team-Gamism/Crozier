@@ -29,7 +29,7 @@ public class OutlineEffect : MonoBehaviour
             SavePreviousValues();
         }
 
-        if (isMouseOver && !PossessManager.Instance.isPossessing)  // 마우스가 오버된 상태에서만 업데이트
+        if (isMouseOver && !GhostManager.Instance.isPossessing)  // 마우스가 오버된 상태에서만 업데이트
         {
             SetOutlinesActive(true);  // 마우스가 오버되었을 때 아웃라인 표시
         }
@@ -65,6 +65,8 @@ public class OutlineEffect : MonoBehaviour
             outlineRenderers[i].sortingOrder = originalRenderer.sortingOrder - 1;
             outlineRenderers[i].material = new Material(outlineMaterial);
             outlineRenderers[i].enabled = true; // 초기에는 아웃라인 활성화
+
+            outlineRenderers[i].sortingLayerName = "Obj";
         }
     }
 

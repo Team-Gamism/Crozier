@@ -43,10 +43,18 @@ public class PossessMove : MonoBehaviour, IMovable
             rigid.AddForce(dirVec * speed * power, ForceMode2D.Impulse);
 
             powerSlider.gameObject.SetActive(false);
+            GhostManager.Instance.isMoving = true;
 
             if (holdCoroutine != null)
                 StopCoroutine(holdCoroutine);
         }
+
+        if (!GhostManager.Instance.isMoving)
+            return;
+
+        if (Vector3.Distance(rigid.linearVelocity, Vector3.zero) <= 0.1f)
+            GhostManager.Instance.isMoving = false;
+
     }
 
     IEnumerator HoldToPower()
