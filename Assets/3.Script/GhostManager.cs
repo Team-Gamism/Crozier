@@ -6,17 +6,17 @@ public interface IMovable
 }
 
 
-public class PossessManager : MonoBehaviour
+public class GhostManager : MonoBehaviour
 {
-    private static PossessManager instance;
-    public static PossessManager Instance
+    private static GhostManager instance;
+    public static GhostManager Instance
     {
         get
         {
             if (instance == null)
             {
                 GameObject prossessManager = new GameObject("PossessManager");
-                instance = prossessManager.AddComponent<PossessManager>();
+                instance = prossessManager.AddComponent<GhostManager>();
                 DontDestroyOnLoad(prossessManager);
             }
             return instance;
@@ -25,12 +25,12 @@ public class PossessManager : MonoBehaviour
     }
 
     public bool isPossessing;
+    public bool isMoving;
 
     private IMovable currentMoveable;
 
     public void SetMoveable(IMovable newMoveable)
     {
-        Debug.Log(newMoveable);
         if (currentMoveable == newMoveable) return;
 
         currentMoveable = newMoveable;
