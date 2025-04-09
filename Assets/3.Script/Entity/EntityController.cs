@@ -8,14 +8,20 @@ public class EntityController : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Animator anim;
 
-    public float CurHp { get { return curHp; }  set { curHp = Mathf.Clamp(value,value,maxHp); if (curHp <= 0) Die(); } }
+    public float CurHp { get { return curHp; } set { curHp = Mathf.Clamp(value, value, maxHp); if (curHp <= 0) Die(); } }
     float curHp;
-    public float maxHp;
+    [HideInInspector] public float maxHp;
 
     Vector3 spawnPos;
     Vector3 moveTarget;
 
     private void Start()
+    {
+        Init();
+        StartCoroutine(Move());
+    }
+
+    private void Init()
     {
         maxHp = entitySO.maxHp;
         CurHp = maxHp;
@@ -23,7 +29,6 @@ public class EntityController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        StartCoroutine(Move());
     }
 
     private void UpdateState()
@@ -33,8 +38,8 @@ public class EntityController : MonoBehaviour
 
     private IEnumerator Move()
     {
-        yield return new WaitForSeconds(Random.Range(4f,6f));
-        moveTarget = spawnPos + new Vector3(Random.Range(-2f,2f), Random.Range(-2f, 2f));
+        yield return new WaitForSeconds(Random.Range(4f, 6f));
+        moveTarget = spawnPos + new Vector3(Random.Range(-2f, 2f), Random.Range(-2f, 2f));
         anim.Play("Move");
 
         while ((transform.position - moveTarget).magnitude > 0.03f)

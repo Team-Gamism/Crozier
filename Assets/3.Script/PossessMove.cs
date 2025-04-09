@@ -10,8 +10,16 @@ public class PossessMove : MonoBehaviour, IMovable
     Rigidbody2D rigid;
     Slider powerSlider;
 
+
+    public GameObject gameObj;
+
     [SerializeField]
     private float power;
+    private Vector3 dirVec;
+    private float angle;
+    private Vector3 targetPos;
+    private bool isHolding;
+
     protected float Power
     {
         get => power;
@@ -32,15 +40,19 @@ public class PossessMove : MonoBehaviour, IMovable
     public void Move()
     {
         if (Input.GetMouseButtonDown(0))
+        {
             holdCoroutine = StartCoroutine(HoldToPower());
+            gameObj.SetActive(true);
+            isHolding = true;
+        }
         if (Input.GetMouseButtonUp(0))
         {
-            Vector3 targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPos.z = 0;
 
-            Vector3 dirVec = (targetPos - transform.position).normalized;
-
             rigid.AddForce(dirVec * speed * power, ForceMode2D.Impulse);
+
+            gameObj.SetActive(false);
+            isHolding = false;
 
             powerSlider.gameObject.SetActive(false);
             GhostManager.Instance.isMoving = true;
@@ -55,6 +67,15 @@ public class PossessMove : MonoBehaviour, IMovable
         if (Vector3.Distance(rigid.linearVelocity, Vector3.zero) <= 0.1f)
             GhostManager.Instance.isMoving = false;
 
+    }
+
+    void Update()
+    {
+        if (isHolding) targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        dirVec = (targetPos - transform.position).normalized;
+        angle = Mathf.Atan2(dirVec.y, dirVec.x) * Mathf.Rad2Deg - 90;
+        gameObj.transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
     IEnumerator HoldToPower()

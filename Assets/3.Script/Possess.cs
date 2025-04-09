@@ -19,7 +19,7 @@ public class Possess : MonoBehaviour
 
     private void Start()
     {
-        GhostManager.Instance.SetMoveable(ghostMove);
+        GhostManager.Instance.SetMovable(ghostMove);
     }
 
     public void DetectPossessableObject()
@@ -34,9 +34,10 @@ public class Possess : MonoBehaviour
             {
                 spriteRenderer.enabled = false;
                 nearest.transform.SetParent(transform);
+                nearest.transform.localPosition = Vector3.zero;
 
                 GhostManager.Instance.isPossessing = true;
-                GhostManager.Instance.SetMoveable(possessMove);
+                GhostManager.Instance.SetMovable(possessMove);
             }
         }
     }
