@@ -6,7 +6,7 @@ public class GhostAttack : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.transform.TryGetComponent<EntityController>(out var enemy))
+        if (collision.transform.TryGetComponent<EnemyController>(out var enemy))
             if (GhostManager.Instance.isPossessing && GhostManager.Instance.isMoving)
             {
                 enemy.TakeDamage(dmg);

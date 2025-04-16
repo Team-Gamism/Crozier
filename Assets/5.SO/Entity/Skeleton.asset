@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Skeleton
   m_EditorClassIdentifier: 
   speed: 3
-  maxHp: 5
+  maxHp: 20
