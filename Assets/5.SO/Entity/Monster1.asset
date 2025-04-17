@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be218007db9280e4f91623fccdfef163, type: 3}
-  m_Name: Skeleton
+  m_Name: Monster1
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 0.5
   maxHp: 20
