@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -6,11 +7,14 @@ public class EnemyController : MonoBehaviour
     public EnemySO entitySO;
     Rigidbody2D rigid;
 
+    public Action dieAction;
+
     public float CurHp { get { return curHp; }  set { curHp = Mathf.Clamp(value,value,maxHp); if (curHp <= 0) Die(); } }
     float curHp;
     float maxHp;
 
     Transform target;
+    SpriteRenderer sprite;
 
     private void Start()
     {
@@ -18,7 +22,9 @@ public class EnemyController : MonoBehaviour
         CurHp = maxHp;
         target = GameManager.Instance.player;
         rigid = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
         StartCoroutine(Move());
+        StartCoroutine(Test());
     }
 
     private IEnumerator Move()
@@ -27,6 +33,7 @@ public class EnemyController : MonoBehaviour
         {
             yield return null;
             rigid.linearVelocity = entitySO.speed * (target.position - transform.position).normalized;
+            sprite.flipX = (target.position - transform.position).normalized.x > 0;
         }
     }
 
@@ -37,6 +44,13 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
+        dieAction.Invoke();
         Destroy(gameObject);
+    }
+
+    IEnumerator Test()
+    {
+        yield return new WaitForSeconds(15);
+        Die();
     }
 }
