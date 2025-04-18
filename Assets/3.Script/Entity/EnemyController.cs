@@ -24,7 +24,6 @@ public class EnemyController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         StartCoroutine(Move());
-        StartCoroutine(Test());
     }
 
     private IEnumerator Move()
@@ -46,11 +45,5 @@ public class EnemyController : MonoBehaviour
     {
         dieAction.Invoke();
         Destroy(gameObject);
-    }
-
-    IEnumerator Test()
-    {
-        yield return new WaitForSeconds(15);
-        Die();
     }
 }
