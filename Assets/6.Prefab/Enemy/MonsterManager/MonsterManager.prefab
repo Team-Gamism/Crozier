@@ -44,5 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ba7b86d345fc247b3f17011be20fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entityObj: {fileID: 0}
-  spawnCount: 0
+  spawnSO: {fileID: 11400000, guid: 8cd30c520ab860f4490f3b9b600b3aba, type: 2}
+  minDistance: 9
+  maxDistance: 12
+  curEnemyCount: 0
+  curTime: 0
