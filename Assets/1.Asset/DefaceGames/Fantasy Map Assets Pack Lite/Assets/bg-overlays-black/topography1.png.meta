@@ -1,0 +1,967 @@
+fileFormatVersion: 2
+guid: f13b20e91a7335c4fad00870036f9806
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6979322112933786238
+    second: topography1_0
+  - first:
+      213: 2162538487740346454
+    second: topography1_1
+  - first:
+      213: -3844841219610815114
+    second: topography1_2
+  - first:
+      213: 1635090740690328133
+    second: topography1_3
+  - first:
+      213: -1758677029558942769
+    second: topography1_4
+  - first:
+      213: 3930974694683674040
+    second: topography1_5
+  - first:
+      213: -8750557144249421080
+    second: topography1_6
+  - first:
+      213: 3459353044540143195
+    second: topography1_7
+  - first:
+      213: 558526041603184013
+    second: topography1_8
+  - first:
+      213: 666727511257417954
+    second: topography1_9
+  - first:
+      213: 7584952660353475440
+    second: topography1_10
+  - first:
+      213: -4157221156578999265
+    second: topography1_11
+  - first:
+      213: -4265343597196327247
+    second: topography1_12
+  - first:
+      213: -7762923175232966554
+    second: topography1_13
+  - first:
+      213: -6313250987537964915
+    second: topography1_14
+  - first:
+      213: 2185520827987379815
+    second: topography1_15
+  - first:
+      213: 766061246323036100
+    second: topography1_16
+  - first:
+      213: 7944936493808966206
+    second: topography1_17
+  - first:
+      213: -5309433830479753863
+    second: topography1_18
+  - first:
+      213: -5097737142715139572
+    second: topography1_19
+  - first:
+      213: -2623267024286850817
+    second: topography1_20
+  - first:
+      213: -5064649702519891131
+    second: topography1_21
+  - first:
+      213: 1946852127750476442
+    second: topography1_22
+  - first:
+      213: -8921153586079580409
+    second: topography1_23
+  - first:
+      213: 1556170993474403379
+    second: topography1_24
+  - first:
+      213: 3388210787300790136
+    second: topography1_25
+  - first:
+      213: 1138395178823719418
+    second: topography1_26
+  - first:
+      213: -7480197483820048911
+    second: topography1_27
+  - first:
+      213: 5108074422672558200
+    second: topography1_28
+  - first:
+      213: -813431930323483414
+    second: topography1_29
+  - first:
+      213: -8946631364987378803
+    second: topography1_30
+  - first:
+      213: -8757115174123733402
+    second: topography1_31
+  - first:
+      213: 2942868521814552291
+    second: topography1_32
+  - first:
+      213: -3013708826972525548
+    second: topography1_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: topography1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2110
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e727272db788bd060800000000000000
+      internalID: 6979322112933786238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2135
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650bfd60c41e20e10800000000000000
+      internalID: 2162538487740346454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2021
+        width: 123
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6755157184164aac0800000000000000
+      internalID: -3844841219610815114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2136
+        width: 81
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a90669d5201b610800000000000000
+      internalID: 1635090740690328133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_4
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1959
+        width: 217
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3008a3f8ce797e0800000000000000
+      internalID: -1758677029558942769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 818
+        width: 1980
+        height: 1342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b58ba958a0ad8630800000000000000
+      internalID: 3930974694683674040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_6
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 1645
+        width: 487
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2b146c3a6cf8680800000000000000
+      internalID: -8750557144249421080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_7
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 1082
+        width: 1104
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b563b7cf347120030800000000000000
+      internalID: 3459353044540143195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_8
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1667
+        width: 776
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d851093c97840c700800000000000000
+      internalID: 558526041603184013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1885
+        width: 280
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e88a769321b04900800000000000000
+      internalID: 666727511257417954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 275
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073e58ef14a234960800000000000000
+      internalID: 7584952660353475440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1654
+        width: 322
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14ce5d42659e46c0800000000000000
+      internalID: -4157221156578999265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1895
+        width: 137
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6402cd8947ec4c0800000000000000
+      internalID: -4265343597196327247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1749
+        width: 330
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6607799708e844490800000000000000
+      internalID: -7762923175232966554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 874
+        height: 1422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d806ae50da3d268a0800000000000000
+      internalID: -6313250987537964915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1549
+        width: 371
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766c7691d97845e10800000000000000
+      internalID: 2185520827987379815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1609
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf074f05a891aa00800000000000000
+      internalID: 766061246323036100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_17
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 1652
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a5584a5a5124e60800000000000000
+      internalID: 7944936493808966206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_18
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 1027
+        width: 742
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d00dfcf0a1156b0800000000000000
+      internalID: -5309433830479753863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_19
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 1488
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a3622e3133149b0800000000000000
+      internalID: -5097737142715139572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_20
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 1417
+        width: 47
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0e2624a88489bd0800000000000000
+      internalID: -2623267024286850817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_21
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 1052
+        width: 291
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b9381edefb6b9b0800000000000000
+      internalID: -5064649702519891131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_22
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1268
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92d7c002bb940b10800000000000000
+      internalID: 1946852127750476442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_23
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 109
+        width: 373
+        height: 798
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f360b6412b13480800000000000000
+      internalID: -8921153586079580409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_24
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 574
+        width: 509
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cfecb0641a89510800000000000000
+      internalID: 1556170993474403379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_25
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 0
+        width: 1504
+        height: 1166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fc53172c7550f20800000000000000
+      internalID: 3388210787300790136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 166
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af91ec732646ccf00800000000000000
+      internalID: 1138395178823719418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 367
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd922f2500013890800000000000000
+      internalID: -7480197483820048911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 147
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87808a9af9683e640800000000000000
+      internalID: 5108074422672558200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4cb1818fb16b4f0800000000000000
+      internalID: -813431930323483414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d832f81cc2e27d380800000000000000
+      internalID: -8946631364987378803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_31
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 203
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66efb25752a787680800000000000000
+      internalID: -8757115174123733402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 250
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee6f6f145b27d820800000000000000
+      internalID: 2942868521814552291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topography1_33
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 0
+        width: 136
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ce7d70ac72d26d0800000000000000
+      internalID: -3013708826972525548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
