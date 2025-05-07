@@ -7,9 +7,11 @@ public class Test : MonoBehaviour
 {
     private const string titleSeparator = "--";
     private const string sectionSeparator = "###";
+    private const string passSeparator = "___";
 
     public TextMeshProUGUI title;
-    public TextMeshProUGUI content;
+    public TextMeshProUGUI content1;
+    public TextMeshProUGUI content2;
 
     private readonly string resourcePath = "Laws/Law_Page";
     public int maxPage;
@@ -54,7 +56,10 @@ public class Test : MonoBehaviour
             return;
         }
 
-        StringBuilder contentBuilder = new StringBuilder();
+        StringBuilder contentBuilder1 = new StringBuilder();
+        StringBuilder contentBuilder2 = new StringBuilder();
+
+        bool isNextPage = true ;
 
         for (int i = 0; i < lines.Length; i++)
         {
@@ -63,20 +68,27 @@ public class Test : MonoBehaviour
                 case titleSeparator:
                     if (i + 1 < lines.Length)
                         title.text = lines[++i] + '\n';
+                    Debug.Log("??");
                     break;
 
                 case sectionSeparator:
                     if (i + 1 < lines.Length)
-                        contentBuilder.AppendLine($"<size=24>{lines[++i]}</size>");
+                        (isNextPage ? contentBuilder1 : contentBuilder2).AppendLine($"<size=24>{lines[++i]}</size>");
+                    Debug.Log("!!");
+                    break;
+
+                case passSeparator:
+                    isNextPage = false;
                     break;
 
                 default:
-                    contentBuilder.AppendLine(lines[i]);
+                    (isNextPage ? contentBuilder1 : contentBuilder2).AppendLine(lines[i]);
                     break;
             }
         }
 
-        content.text = contentBuilder.ToString();
+        content1.text = contentBuilder1.ToString();
+        content2.text = contentBuilder2.ToString();
     }
 
     public void NextPage()

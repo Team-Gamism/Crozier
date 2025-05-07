@@ -1,9 +1,105 @@
 fileFormatVersion: 2
 guid: 4a70aa0f0c12189439a56397df68977f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6447114240829559058
+    second: open-city solid_0
+  - first:
+      213: 4932493544602584389
+    second: open-city solid_1
+  - first:
+      213: -1399678646216880106
+    second: open-city solid_2
+  - first:
+      213: -4896620239324612683
+    second: open-city solid_3
+  - first:
+      213: 1018601754921451376
+    second: open-city solid_4
+  - first:
+      213: -7574655595454553135
+    second: open-city solid_5
+  - first:
+      213: 8727438909358695272
+    second: open-city solid_6
+  - first:
+      213: 219386793771552311
+    second: open-city solid_7
+  - first:
+      213: -5257840666807857807
+    second: open-city solid_8
+  - first:
+      213: -943989483281658143
+    second: open-city solid_9
+  - first:
+      213: 1218543290610723478
+    second: open-city solid_10
+  - first:
+      213: -125713822801291885
+    second: open-city solid_11
+  - first:
+      213: 6498152907428065405
+    second: open-city solid_12
+  - first:
+      213: 1454636485797004669
+    second: open-city solid_13
+  - first:
+      213: 4040731133702144177
+    second: open-city solid_14
+  - first:
+      213: 7182554638013161946
+    second: open-city solid_15
+  - first:
+      213: -1632929372535368685
+    second: open-city solid_16
+  - first:
+      213: 8225476146526958414
+    second: open-city solid_17
+  - first:
+      213: -2039943366400517436
+    second: open-city solid_18
+  - first:
+      213: 8410375114257677368
+    second: open-city solid_19
+  - first:
+      213: 8940704951791147489
+    second: open-city solid_20
+  - first:
+      213: 8543791479358934481
+    second: open-city solid_21
+  - first:
+      213: -2920160361040535507
+    second: open-city solid_22
+  - first:
+      213: -3492880835704050805
+    second: open-city solid_23
+  - first:
+      213: -4968436122725838771
+    second: open-city solid_24
+  - first:
+      213: 2615872791459403979
+    second: open-city solid_25
+  - first:
+      213: -1061665208569424618
+    second: open-city solid_26
+  - first:
+      213: -2534735000981453503
+    second: open-city solid_27
+  - first:
+      213: -3962410835989315508
+    second: open-city solid_28
+  - first:
+      213: -6056192199115150473
+    second: open-city solid_29
+  - first:
+      213: 6437278713262165712
+    second: open-city solid_30
+  - first:
+      213: -2436399272744193694
+    second: open-city solid_31
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -38,11 +135,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,8 +160,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,9 +173,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,45 +186,732 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: open-city solid_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 303
+        width: 96
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeeedf891cf3786a0800000000000000
+      internalID: -6447114240829559058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 289
+        width: 102
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545c1fecebcb37440800000000000000
+      internalID: 4932493544602584389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 360
+        width: 99
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6101b84efa7539ce0800000000000000
+      internalID: -1399678646216880106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 340
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b77113f5d5bb0cb0800000000000000
+      internalID: -4896620239324612683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 348
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fbea936ecc22e00800000000000000
+      internalID: 1018601754921451376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 282
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3a1014eda61e690800000000000000
+      internalID: -7574655595454553135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 281
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8636f37b2771e1970800000000000000
+      internalID: 8727438909358695272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 249
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e4a27602b6b0300800000000000000
+      internalID: 219386793771552311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 227
+        width: 52
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d805155c56807b0800000000000000
+      internalID: -5257840666807857807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 313
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeca41019646e2f0800000000000000
+      internalID: -943989483281658143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 267
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69aa94caaa229e010800000000000000
+      internalID: 1218543290610723478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_11
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 190
+        width: 85
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3959298b1ff514ef0800000000000000
+      internalID: -125713822801291885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_12
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 269
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70fb6ff3a31e2a50800000000000000
+      internalID: 6498152907428065405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 236
+        width: 106
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75c0454d28ef2410800000000000000
+      internalID: 1454636485797004669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 190
+        width: 83
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b08d21be8f831830800000000000000
+      internalID: 4040731133702144177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 189
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1eb92736f8da360800000000000000
+      internalID: 7182554638013161946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 253
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3145ab6236ba659e0800000000000000
+      internalID: -1632929372535368685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 254
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43303e89f2c62270800000000000000
+      internalID: 8225476146526958414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 202
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca58cbf05aa0b3e0800000000000000
+      internalID: -2039943366400517436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 224
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c3d193b97a7b470800000000000000
+      internalID: 8410375114257677368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 255
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e95615a8c3c31c70800000000000000
+      internalID: 8940704951791147489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 217
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddc2326515a19670800000000000000
+      internalID: 8543791479358934481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 150
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20a0019f918977d0800000000000000
+      internalID: -2920160361040535507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 197
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b2711d26bc68fc0800000000000000
+      internalID: -3492880835704050805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_24
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 149
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4015b79ba19c0bb0800000000000000
+      internalID: -4968436122725838771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 185
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc81c80c1727d4420800000000000000
+      internalID: 2615872791459403979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 105
+        width: 51
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61514d42e153441f0800000000000000
+      internalID: -1061665208569424618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 168
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14540ca32ffc2dcd0800000000000000
+      internalID: -2534735000981453503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40c2b2a650b209c0800000000000000
+      internalID: -3962410835989315508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 141
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bef30384514fba0800000000000000
+      internalID: -6056192199115150473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_30
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 103
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0decc2032eec55950800000000000000
+      internalID: 6437278713262165712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open-city solid_31
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 142
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261ff0125cb203ed0800000000000000
+      internalID: -2436399272744193694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable: {}
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 259318
-  packageName: Fantasy Map Assets Pack Lite
-  packageVersion: 1.0.2
-  assetPath: Assets/DefaceGames/Fantasy Map Assets Pack Lite/Assets/buildings-black/open-city
-    solid.png
-  uploadId: 606215
