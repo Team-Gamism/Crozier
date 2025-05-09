@@ -226,8 +226,10 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
   generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
   maxTextureSize: 2048
@@ -1782,7 +1784,74 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      topography2_0: 7365893780702350597
+      topography2_1: -3428211523544992900
+      topography2_10: 6800947286033229346
+      topography2_11: 2587341516097470246
+      topography2_12: 480070906802115322
+      topography2_13: 6787032153640631060
+      topography2_14: 1655575541895323738
+      topography2_15: 2599959397724163464
+      topography2_16: 3777071248131176772
+      topography2_17: -4756530793270784225
+      topography2_18: 6613909998480545687
+      topography2_19: 1824766507646207386
+      topography2_2: 4927105411847001447
+      topography2_20: 2614101116165661322
+      topography2_21: 6386834265447200063
+      topography2_22: -6047881049555466333
+      topography2_23: 8400854839996086812
+      topography2_24: -5216547658669855173
+      topography2_25: -3330587341783588203
+      topography2_26: 5754130983780223188
+      topography2_27: -1740760315529951536
+      topography2_28: 4617745005324112976
+      topography2_29: 8106414955797575429
+      topography2_3: -247843221566919152
+      topography2_30: 50506696396729121
+      topography2_31: 7576102145959028954
+      topography2_32: -5704111916589372082
+      topography2_33: -777700373778685291
+      topography2_34: -6326594736396938841
+      topography2_35: -8735144367669846710
+      topography2_36: -6384581005459517495
+      topography2_37: -3978837859249727766
+      topography2_38: -1247763447523571720
+      topography2_39: 2404765912623530336
+      topography2_4: -4485765815014380327
+      topography2_40: -3081799560521669188
+      topography2_41: 8146412418953438310
+      topography2_42: 1515346526881307879
+      topography2_43: -4982859666114341227
+      topography2_44: 3196550844512679025
+      topography2_45: -6498366332408861754
+      topography2_46: 9045365648120549632
+      topography2_47: 8335428209044826736
+      topography2_48: -4956315413873350951
+      topography2_49: 6081560687809907091
+      topography2_5: 970501180789499919
+      topography2_50: -2400278536540396093
+      topography2_51: -8157944387947022069
+      topography2_52: 480848930997709533
+      topography2_53: -5555322989892308952
+      topography2_54: -3429852569976710582
+      topography2_55: 1243881024596517761
+      topography2_56: -4242333334434779977
+      topography2_57: 844781821146543887
+      topography2_58: 6692112638207294133
+      topography2_59: -4557753473537626404
+      topography2_6: 4978599181334001671
+      topography2_60: 1819479862104608079
+      topography2_61: 7434514943276112356
+      topography2_62: -4178642936886047879
+      topography2_63: -8039651237250938746
+      topography2_64: 8738434564427962152
+      topography2_65: 385080530126993259
+      topography2_66: 4639347547461057830
+      topography2_7: 1758374113552462155
+      topography2_8: -1676059758659055545
+      topography2_9: 6568412406017399449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

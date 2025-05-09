@@ -909,7 +909,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      open-city solid_0: -6447114240829559058
+      open-city solid_1: 4932493544602584389
+      open-city solid_10: 1218543290610723478
+      open-city solid_11: -125713822801291885
+      open-city solid_12: 6498152907428065405
+      open-city solid_13: 1454636485797004669
+      open-city solid_14: 4040731133702144177
+      open-city solid_15: 7182554638013161946
+      open-city solid_16: -1632929372535368685
+      open-city solid_17: 8225476146526958414
+      open-city solid_18: -2039943366400517436
+      open-city solid_19: 8410375114257677368
+      open-city solid_2: -1399678646216880106
+      open-city solid_20: 8940704951791147489
+      open-city solid_21: 8543791479358934481
+      open-city solid_22: -2920160361040535507
+      open-city solid_23: -3492880835704050805
+      open-city solid_24: -4968436122725838771
+      open-city solid_25: 2615872791459403979
+      open-city solid_26: -1061665208569424618
+      open-city solid_27: -2534735000981453503
+      open-city solid_28: -3962410835989315508
+      open-city solid_29: -6056192199115150473
+      open-city solid_3: -4896620239324612683
+      open-city solid_30: 6437278713262165712
+      open-city solid_31: -2436399272744193694
+      open-city solid_4: 1018601754921451376
+      open-city solid_5: -7574655595454553135
+      open-city solid_6: 8727438909358695272
+      open-city solid_7: 219386793771552311
+      open-city solid_8: -5257840666807857807
+      open-city solid_9: -943989483281658143
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

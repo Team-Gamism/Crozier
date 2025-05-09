@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cave solid_0: 5984366095418100883
+      cave solid_1: 4621908199945569939
+      cave solid_2: -3634441079895217543
+      cave solid_3: -5154545509956483424
+      cave solid_4: -5544199077434407064
+      cave solid_5: -3410488590618560251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

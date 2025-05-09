@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      watchtower solid_0: 7323145412905651964
+      watchtower solid_1: 9184167334874380971
+      watchtower solid_2: -8185678677863254212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

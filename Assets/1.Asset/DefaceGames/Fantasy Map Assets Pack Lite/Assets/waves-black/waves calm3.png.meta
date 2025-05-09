@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      waves calm3_0: 69351118210969324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
