@@ -3,7 +3,7 @@ using System.Text;
 using TMPro;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class CodeOfLawController : MonoBehaviour
 {
     private const string titleSeparator = "--";
     private const string sectionSeparator = "###";
@@ -13,7 +13,7 @@ public class Test : MonoBehaviour
     public TextMeshProUGUI content1;
     public TextMeshProUGUI content2;
 
-    private readonly string resourcePath = "Laws/Law_Page";
+    private readonly string resourcesPath = "Laws/Law_Page";
     public int maxPage;
 
     private int page;
@@ -23,6 +23,7 @@ public class Test : MonoBehaviour
         set
         {
             page = Mathf.Clamp(value, 1, maxPage);
+            DisplayLaw();
         }
     }
 
@@ -34,7 +35,7 @@ public class Test : MonoBehaviour
 
     void DisplayLaw()
     {
-        string[] lines = ReadResourceFileLines(resourcePath, page);
+        string[] lines = ReadResourceFileLines(resourcesPath, page);
         ParseAndDisplay(lines);
     }
 
@@ -68,13 +69,11 @@ public class Test : MonoBehaviour
                 case titleSeparator:
                     if (i + 1 < lines.Length)
                         title.text = lines[++i] + '\n';
-                    Debug.Log("??");
                     break;
 
                 case sectionSeparator:
                     if (i + 1 < lines.Length)
                         (isNextPage ? contentBuilder1 : contentBuilder2).AppendLine($"<size=24>{lines[++i]}</size>");
-                    Debug.Log("!!");
                     break;
 
                 case passSeparator:
@@ -94,11 +93,9 @@ public class Test : MonoBehaviour
     public void NextPage()
     {
         Page++;
-        DisplayLaw();
     }
     public void PrePage()
     {
         Page--;
-        DisplayLaw();
     }
 }
