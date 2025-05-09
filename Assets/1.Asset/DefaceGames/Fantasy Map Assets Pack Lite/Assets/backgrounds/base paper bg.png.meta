@@ -26,6 +26,8 @@ TextureImporter:
     flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
@@ -132,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      base paper bg_0: -3267652625195196871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

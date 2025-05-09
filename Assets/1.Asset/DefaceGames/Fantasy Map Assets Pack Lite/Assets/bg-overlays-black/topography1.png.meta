@@ -959,7 +959,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      topography1_0: 6979322112933786238
+      topography1_1: 2162538487740346454
+      topography1_10: 7584952660353475440
+      topography1_11: -4157221156578999265
+      topography1_12: -4265343597196327247
+      topography1_13: -7762923175232966554
+      topography1_14: -6313250987537964915
+      topography1_15: 2185520827987379815
+      topography1_16: 766061246323036100
+      topography1_17: 7944936493808966206
+      topography1_18: -5309433830479753863
+      topography1_19: -5097737142715139572
+      topography1_2: -3844841219610815114
+      topography1_20: -2623267024286850817
+      topography1_21: -5064649702519891131
+      topography1_22: 1946852127750476442
+      topography1_23: -8921153586079580409
+      topography1_24: 1556170993474403379
+      topography1_25: 3388210787300790136
+      topography1_26: 1138395178823719418
+      topography1_27: -7480197483820048911
+      topography1_28: 5108074422672558200
+      topography1_29: -813431930323483414
+      topography1_3: 1635090740690328133
+      topography1_30: -8946631364987378803
+      topography1_31: -8757115174123733402
+      topography1_32: 2942868521814552291
+      topography1_33: -3013708826972525548
+      topography1_4: -1758677029558942769
+      topography1_5: 3930974694683674040
+      topography1_6: -8750557144249421080
+      topography1_7: 3459353044540143195
+      topography1_8: 558526041603184013
+      topography1_9: 666727511257417954
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

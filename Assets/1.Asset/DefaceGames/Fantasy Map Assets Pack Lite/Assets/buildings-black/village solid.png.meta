@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      village solid_0: 2052983328980904828
+      village solid_1: 3562165217501233740
+      village solid_10: 7875479286875018968
+      village solid_11: -5130537497924959603
+      village solid_12: -3577179468441986158
+      village solid_13: 7652494547614986549
+      village solid_14: -76266797842094711
+      village solid_15: -4083607688821672247
+      village solid_16: -1112227639131177051
+      village solid_2: -5661749273712491753
+      village solid_3: -2774614866661746426
+      village solid_4: -5996248779995921515
+      village solid_5: -5943776407901495668
+      village solid_6: -4367310375791319428
+      village solid_7: -3892943399934141529
+      village solid_8: 4791645433999711764
+      village solid_9: 747426061131317907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
