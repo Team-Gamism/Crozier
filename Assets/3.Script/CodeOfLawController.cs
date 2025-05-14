@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class CodeOfLawController : MonoBehaviour
 {
-    private const string titleSeparator = "--";
+    private const string titleSeparator = "#";
     private const string sectionSeparator = "###";
-    private const string passSeparator = "___";
+    private const string passSeparator = ">>>";
 
     public TextMeshProUGUI title;
     public TextMeshProUGUI content1;

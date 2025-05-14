@@ -534,6 +534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Code of Law
       objectReference: {fileID: 0}
+    - target: {fileID: 6539168700213899691, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+      propertyPath: maxPage
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
