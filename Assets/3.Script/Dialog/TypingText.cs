@@ -1,18 +1,18 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TypingText : MonoBehaviour
 {
-    Text dialogTextUI;
+    TextMeshProUGUI dialogTextUI;
     string dialogText = "";
     public Action endDialogAction;
 
     private void Awake()
     {
-        dialogTextUI = GetComponent<Text>();
+        dialogTextUI = GetComponent<TextMeshProUGUI>();
     }
 
     public void TypeingText(DialogData dialogData)
