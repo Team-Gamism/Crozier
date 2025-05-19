@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class DialogManager : MonoBehaviour
     [SerializeField] TypingText textUI;
     [SerializeField] GameObject choice;
     [SerializeField] GameObject endChoice;
+
+    TextMeshProUGUI nameText;
 
     Transform choiceGrid;
 
@@ -30,6 +33,8 @@ public class DialogManager : MonoBehaviour
     private void Start()
     {
         choiceGrid = Util.FindChild(gameObject,"ChoiceGrid",true).transform;
+        nameText = Util.FindChild<TextMeshProUGUI>(gameObject,"NameText",true);
+
 
         textUI.endDialogAction += EndDialog;
 
@@ -62,6 +67,7 @@ public class DialogManager : MonoBehaviour
         {
             textUI.TypeingText(curDialogData);
         }
+        SetName();
     }
 
     void NextDialog()
@@ -105,7 +111,12 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-    #region º±≈√¡ˆ
+    void SetName()
+    {
+        nameText.text = curDialogData.speakerName;
+    }
+
+    #region ÏÑ†ÌÉùÏßÄ
     void Add_ChoicList()
     {
         if (addedChoices)
@@ -141,7 +152,7 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-    //¡˙πÆ¿Ã æ¯¿ª ∂ß ¥©∏£¥¬ º±≈√¡ˆ
+    //ÏßàÎ¨∏Ïù¥ ÏóÜÏùÑ Îïå ÎàÑÎ•¥Îäî ÏÑ†ÌÉùÏßÄ
     void Make_EndChoic()
     {
         EndChoice _choice = Instantiate(endChoice, choiceGrid).GetComponent<EndChoice>();
@@ -174,7 +185,7 @@ public class DialogManager : MonoBehaviour
             if (child.TryGetComponent<Choice>(out var choice))
             {
                 if (!choiceList.Contains(choice.choiceData))
-                    child.GetComponentInChildren<Text>().color = Color.yellow;
+                    child.GetComponentInChildren<TextMeshProUGUI>().color = Color.yellow;
                 else
                     child.GetComponent<Image>().color = new Color32(0, 0, 0, 0);
 
