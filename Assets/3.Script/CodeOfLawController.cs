@@ -98,4 +98,8 @@ public class CodeOfLawController : MonoBehaviour
     {
         Page--;
     }
+    public void Hide()
+    {
+        transform.root.gameObject.SetActive(false);
+    }
 }
