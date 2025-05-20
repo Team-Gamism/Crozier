@@ -18,7 +18,7 @@ public class LawBookUI : MonoBehaviour,IPointerClickHandler,IPointerEnterHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (lawGo = null)
+        if (lawGo == null)
             lawGo = Instantiate(law);
         else
             lawGo.SetActive(true);
