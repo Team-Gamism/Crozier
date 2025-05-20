@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class CodeOfLawController : MonoBehaviour
 {
-    private const string titleSeparator = "--";
+    private const string titleSeparator = "#";
     private const string sectionSeparator = "###";
-    private const string passSeparator = "___";
+    private const string passSeparator = ">>>";
 
     public TextMeshProUGUI title;
     public TextMeshProUGUI content1;
     public TextMeshProUGUI content2;
 
     private readonly string resourcesPath = "Laws/Law_Page";
-    public int maxPage;
+    private readonly int maxPage = 12;
 
     private int page;
     public int Page
@@ -27,7 +27,7 @@ public class CodeOfLawController : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void OnEnable()
     {
         Page = 1;
         DisplayLaw();
