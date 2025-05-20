@@ -14,7 +14,7 @@ public class CodeOfLawController : MonoBehaviour
     public TextMeshProUGUI content2;
 
     private readonly string resourcesPath = "Laws/Law_Page";
-    public int maxPage;
+    private readonly int maxPage = 12;
 
     private int page;
     public int Page
@@ -27,7 +27,7 @@ public class CodeOfLawController : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void OnEnable()
     {
         Page = 1;
         DisplayLaw();
