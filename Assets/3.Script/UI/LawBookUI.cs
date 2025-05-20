@@ -7,6 +7,8 @@ public class LawBookUI : MonoBehaviour,IPointerClickHandler,IPointerEnterHandler
     [SerializeField]
     GameObject law;
 
+    GameObject lawGo;
+
     RectTransform rect;
 
     void Start()
@@ -16,7 +18,10 @@ public class LawBookUI : MonoBehaviour,IPointerClickHandler,IPointerEnterHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Instantiate(law);
+        if (lawGo = null)
+            lawGo = Instantiate(law);
+        else
+            lawGo.SetActive(true);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

@@ -4,10 +4,10 @@ using UnityEngine.EventSystems;
 
 public class CrozierUI : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    RectTransform rect;
+    Animator anim;
     void Start()
     {
-        rect = GetComponent<RectTransform>();
+        anim = GetComponent<Animator>();
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -17,11 +17,11 @@ public class CrozierUI : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-
+        anim.Play("Hold");
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-
+        anim.Play("Drop");
     }
 }
