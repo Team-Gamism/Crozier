@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 public class CrozierUI : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] GameObject judgmentUI;
+    GameObject go;
     Animator anim;
     void Start()
     {
@@ -13,7 +14,10 @@ public class CrozierUI : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Instantiate(judgmentUI);
+        if(go == null)
+            go = Instantiate(judgmentUI);
+        else
+            go.SetActive(true);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

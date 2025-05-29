@@ -2,12 +2,13 @@ using System;
 using UnityEngine;
 using System.Collections.Generic;
 /// <summary>
-/// ´ëÈ­ Á¤º¸¸¦ ³Ö¾îÁÖ´Â ½ºÅ©¸³Æ®
+/// ëŒ€í™” ì •ë³´ë¥¼ ë„£ì–´ì£¼ëŠ” ìŠ¤í¬ë¦½íŠ¸
 /// </summary>
 [CreateAssetMenu(fileName = "DialogSO", menuName = "SO/DialogSO")]
 public class DialogSO : ScriptableObject
 {
-    public List<DialogData> dialogDataList;
+    [SerializeField]
+    public List<DialogData> dialogDataList = new List<DialogData>();
 }
 
 public enum AnimationType
