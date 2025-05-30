@@ -16,20 +16,24 @@ public class CodeOfLawController : MonoBehaviour
     private readonly string resourcesPath = "Laws/Law_Page";
     private readonly int maxPage = 12;
 
+    [SerializeField] GameObject contentObj;
+
     private int page;
     public int Page
     {
         get => page;
         set
         {
-            page = Mathf.Clamp(value, 1, maxPage);
+            page = Mathf.Clamp(value, 0, maxPage);
+            if (page != 0)
+                contentObj.SetActive(false);
             DisplayLaw();
         }
     }
 
     private void OnEnable()
     {
-        Page = 1;
+        Page = 0;
         DisplayLaw();
     }
 
@@ -41,6 +45,12 @@ public class CodeOfLawController : MonoBehaviour
 
     private string[] ReadResourceFileLines(string path, int page)
     {
+        if (page == 0)
+        {
+            contentObj.SetActive(true);
+            return new string[0];
+        }
+
         TextAsset textAsset = Resources.Load<TextAsset>(path + page);
         if (textAsset == null)
         {
@@ -90,9 +100,16 @@ public class CodeOfLawController : MonoBehaviour
         content2.text = contentBuilder2.ToString();
     }
 
+    public void NavigatePage(int n)
+    {
+        Page = n;
+    }
+
     public void NextPage()
     {
         Page++;
+       
+
     }
     public void PrePage()
     {
