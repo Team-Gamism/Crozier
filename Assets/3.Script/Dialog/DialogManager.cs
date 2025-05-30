@@ -68,6 +68,8 @@ public class DialogManager : MonoBehaviour
             textUI.TypeingText(curDialogData);
         }
         SetName();
+
+        //여기서 curDialogData.textData랑 curDialogData.speakerName
     }
 
     void NextDialog()
