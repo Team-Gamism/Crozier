@@ -443,8 +443,8 @@ MonoBehaviour:
     speakerName: "\uD53C\uACE0"
     isUsedAnimation: 0
     animationType: 0
-    nextDialogMethod: 0
-    nextDialogIndex: 0
+    nextDialogMethod: 1
+    nextDialogIndex: 31
     dialogType: 0
     choiceList: []
     isLastDialog: 0
