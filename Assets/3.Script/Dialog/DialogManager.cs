@@ -12,6 +12,9 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject choice;
     [SerializeField] GameObject endChoice;
 
+    [SerializeField]
+    Animator anim;
+
     TextMeshProUGUI nameText;
 
     Transform choiceGrid;
@@ -199,4 +202,5 @@ public class DialogManager : MonoBehaviour
         }
     }
     #endregion
+
 }
