@@ -4,5 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "JudgmentSO", menuName = "SO/JudgmentSO")]
 public class JudgmentSO : ScriptableObject
 {
-    public List<string> judgmentList;
+    public int fine;
+    public int imprisonment;
+    public int labor;
 }

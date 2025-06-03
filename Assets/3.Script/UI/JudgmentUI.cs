@@ -5,6 +5,7 @@ using UnityEngine;
 public class JudgmentUI : MonoBehaviour
 {
     public TextMeshProUGUI judgement;
+    public JudgmentSO judgmentSO;
 
     int fine =0;
     int imprisonment =0;
@@ -99,6 +100,12 @@ public class JudgmentUI : MonoBehaviour
     }
 
     public void Judge()
+    {
+        if(judgmentSO.fine == fine && judgmentSO.imprisonment == imprisonment && judgmentSO.labor == labor)
+            Clear();
+    }
+
+    void Clear()
     {
 
     }

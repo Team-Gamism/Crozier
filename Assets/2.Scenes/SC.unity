@@ -791,6 +791,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1384594546}
     m_Modifications:
+    - target: {fileID: 4718708895308364626, guid: c33141c38d0682a4e8a69be368754e9b, type: 3}
+      propertyPath: m_text
+      value: <sprite name="Crozier">
+      objectReference: {fileID: 0}
     - target: {fileID: 7353767054229811520, guid: c33141c38d0682a4e8a69be368754e9b, type: 3}
       propertyPath: m_Name
       value: UI_Dialog
