@@ -60,6 +60,7 @@ public class DialogManager : MonoBehaviour
 
     void StartDialog()
     {
+        textUI.StopDialogSign();
         if (curDialogData.dialogType == DialogType.Choice)
         {
             Remove_AllChoice();
