@@ -77,7 +77,7 @@ public class TypingText : MonoBehaviour
                 yield break;
 
             yield return null;
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 stopTyping = true;
             }
