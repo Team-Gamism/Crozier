@@ -7,7 +7,7 @@ using TMPro;
 
 public class DialogManager : MonoBehaviour
 {
-    [SerializeField] DialogSO dialogSO;
+    [SerializeField]public DialogSO dialogSO;
     [SerializeField] TypingText textUI;
     [SerializeField] GameObject choice;
     [SerializeField] GameObject endChoice;
@@ -93,7 +93,6 @@ public class DialogManager : MonoBehaviour
 
     void Disappear()
     {
-        dialogDisappearAction?.Invoke();
         gameObject.SetActive(false);
     }
 
