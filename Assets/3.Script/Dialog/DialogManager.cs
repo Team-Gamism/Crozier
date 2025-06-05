@@ -104,7 +104,7 @@ public class DialogManager : MonoBehaviour
             if (!canDoNextDialog)
                 continue;
 
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.X))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 if (!curDialogData.isLastDialog)
                     NextDialog();
