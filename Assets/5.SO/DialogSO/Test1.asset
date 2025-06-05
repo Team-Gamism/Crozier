@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f37a2e062517044aa8bbf7b10ecbed, type: 3}
+  m_Name: Test1
+  m_EditorClassIdentifier: 
+  dialogDataList:
+  - textData: "\uBC8C\uC740.. \uB2EC\uAC8C \uBC1B\uACA0\uC2B5\uB2C8\uB2E4... \uAC10\uC0AC\uD569\uB2C8\uB2E4
+      \uC8FC\uAD50\uB2D8..."
+    typingTime: 0.04
+    speakerName: "\uD53C\uACE0"
+    isUsedAnimation: 0
+    animationType: 0
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+  - textData: "\uC77C\uD560 \uC0AC\uB78C\uC774 \uD544\uC694\uD588\uB294\uB370 \uB9C8\uCE68
+      \uC798\uB410\uAD70"
+    typingTime: 0.02
+    speakerName: "\uC6D0\uACE0"
+    isUsedAnimation: 0
+    animationType: 0
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+  - textData: "\uB531\uD558\uAE30\uB3C4 \uD558\uB2C8\uAE4C.."
+    typingTime: 0.02
+    speakerName: "\uC6D0\uACE0"
+    isUsedAnimation: 0
+    animationType: 0
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+  - textData: "\uB108\uC640 \uC870\uCE74\uAC00 \uBA39\uACE0 \uC0B4\uB9CC\uD07C\uC740
+      \uBCF4\uC218\uB97C \uC8FC\uACA0\uB124"
+    typingTime: 0.02
+    speakerName: "\uC6D0\uACE0"
+    isUsedAnimation: 0
+    animationType: 0
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+  - textData: "\uC815\uB9D0... \uBAA8\uB450\uC5D0\uAC8C \uAC10\uC0AC\uD569\uB2C8\uB2E4.."
+    typingTime: 0.04
+    speakerName: "\uD53C\uACE0"
+    isUsedAnimation: 0
+    animationType: 0
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 1
+  - textData: "\uC740\uD61C\uB97C \uAF2D \uAC1A\uB3C4\uB85D \uCD5C\uC120\uC744 \uB2E4\uD558\uACA0\uC2B5\uB2C8\uB2E4!!"
+    typingTime: 0.02
+    speakerName: "\uD53C\uACE0"
+    isUsedAnimation: 0
+    animationType: 0
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 1

@@ -11,7 +11,6 @@ public class TypingText : MonoBehaviour
 
     bool isTyping;
     bool stopTyping;
-    bool stopDialogSign;
 
     private void Awake()
     {

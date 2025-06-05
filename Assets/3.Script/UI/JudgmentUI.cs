@@ -6,6 +6,7 @@ public class JudgmentUI : MonoBehaviour
 {
     public TextMeshProUGUI judgement;
     public JudgmentSO judgmentSO;
+    [SerializeField] GameObject judgementDialogUI;
 
     int fine =0;
     int imprisonment =0;
@@ -88,10 +89,10 @@ public class JudgmentUI : MonoBehaviour
                     s += $"벌금 {fine}데나로";
                     break;
                 case JudgementType.Imprisonment:
-                    s += $"구금형 {imprisonment}일";
+                    s += $"구금형 {imprisonment}개월";
                     break;
                 case JudgementType.Labor:
-                    s += $"노동형 {labor}일";
+                    s += $"노동형 {labor}개월";
                     break;
             }
             judgementText += s;
@@ -101,14 +102,128 @@ public class JudgmentUI : MonoBehaviour
 
     public void Judge()
     {
-        if(judgmentSO.fine == fine && judgmentSO.imprisonment == imprisonment && judgmentSO.labor == labor)
-            Clear();
+        bool conditionComleted;
+        List<JudgementResult> judgementResults = judgmentSO.judgementResultList;
+        for (int i = 0;i < judgementResults.Count;i++)
+        {
+            conditionComplete = 0;
+            for (int j = 0;j < judgementResults[i].conditionList.Count;j++)
+            {
+                switch (judgementResults[i].conditionList[j].judgementType)
+                {
+                    case JudgementType.Fine:
+                        conditionComleted = JudgeFine(judgementResults[i].conditionList[j], judgementResults[i]);
+                        if (conditionComleted)
+                            return;
+                        break;
+                    case JudgementType.Imprisonment:
+                        conditionComleted = JudgeImprisonment(judgementResults[i].conditionList[j], judgementResults[i]);
+                        if (conditionComleted)
+                            return;
+                        break;
+                    case JudgementType.Labor:
+                        conditionComleted = JudgeLabor(judgementResults[i].conditionList[j], judgementResults[i]);
+                        if (conditionComleted)
+                            return;
+                        break;
+                }
+            }
+        }
+        Destroy(gameObject);
     }
 
-    void Clear()
+    int conditionComplete = 0;
+
+    bool JudgeFine(Condition condition,JudgementResult judgement)
     {
-
+        if (condition.up)
+        {
+            if (condition.amount < fine)
+            {
+                conditionComplete++;
+                if (conditionComplete != judgement.conditionList.Count)
+                    return false;
+                DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
+                dialogManager.dialogSO = judgement.dialogSO;
+                return true;
+            }
+            return false;
+        }
+        else
+        {
+            if (condition.amount > fine)
+            {
+                conditionComplete++;
+                if (conditionComplete != judgement.conditionList.Count)
+                    return false;
+                DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
+                dialogManager.dialogSO = judgement.dialogSO;
+                return true;
+            }
+            return false;
+        }
     }
+
+    bool JudgeImprisonment(Condition condition, JudgementResult judgement)
+    {
+        if (condition.up)
+        {
+                if (condition.amount < imprisonment)
+                {
+                conditionComplete++;
+                if (conditionComplete != judgement.conditionList.Count)
+                    return false;
+                DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
+                dialogManager.dialogSO = judgement.dialogSO;
+                return true;
+            }
+            return false;
+        }
+        else
+        {
+            if (condition.amount > imprisonment)
+            {
+                conditionComplete++;
+                if (conditionComplete != judgement.conditionList.Count)
+                    return false;
+                DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
+                dialogManager.dialogSO = judgement.dialogSO;
+                return true;
+            }
+            return false;
+        }
+    }
+
+    bool JudgeLabor(Condition condition, JudgementResult judgement)
+    {
+        if (condition.up)
+        {
+            if (condition.amount < labor)
+            {
+                conditionComplete++;
+                if (conditionComplete != judgement.conditionList.Count)
+                    return false;
+                DialogManager judgeDialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
+                judgeDialogManager.dialogSO = judgement.dialogSO;
+                return true;
+            }
+            return false;
+        }
+        else
+        {
+            if (condition.amount > labor)
+            {
+                conditionComplete++;
+                if (conditionComplete != judgement.conditionList.Count)
+                    return false;
+                DialogManager judgeDialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
+                judgeDialogManager.dialogSO = judgement.dialogSO;
+                return true;
+            }
+            return false;
+        }
+    }
+
 
     public void Hide()
     {
@@ -116,7 +231,7 @@ public class JudgmentUI : MonoBehaviour
     }
 }
 
-enum JudgementType
+public enum JudgementType
 {
     Fine,
     Imprisonment,
