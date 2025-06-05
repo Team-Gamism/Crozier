@@ -33,7 +33,7 @@ public class UI_Main_Interface : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene("SC");
     }
 
     public void Setting()
