@@ -31,12 +31,13 @@ public class DialogManager : MonoBehaviour
     bool canDoNextDialog = false;
     int dialogIndex = 0;
 
-    private DialogData curDialogData; 
+    private DialogData curDialogData;
 
+    public TrialRecord trial;
     private void Start()
     {
-        choiceGrid = Util.FindChild(gameObject,"ChoiceGrid",true).transform;
-        nameText = Util.FindChild<TextMeshProUGUI>(gameObject,"NameText",true);
+        choiceGrid = Util.FindChild(gameObject, "ChoiceGrid", true).transform;
+        nameText = Util.FindChild<TextMeshProUGUI>(gameObject, "NameText", true);
 
 
         textUI.endDialogAction += EndDialog;
@@ -56,7 +57,7 @@ public class DialogManager : MonoBehaviour
         {
             canDoNextDialog = true;
         }
-    } 
+    }
 
     void StartDialog()
     {
@@ -72,9 +73,13 @@ public class DialogManager : MonoBehaviour
             textUI.TypeingText(curDialogData);
         }
         SetName();
-
-        //여기서 curDialogData.textData랑 curDialogData.speakerName
+        AddData(curDialogData);
     }
+    void AddData(DialogData data)
+    {
+        trial.dialogDatas.Add(data.speakerName + " : " + data.textData);
+    }
+
 
     void NextDialog()
     {
@@ -95,8 +100,11 @@ public class DialogManager : MonoBehaviour
 
     void Disappear()
     {
+        dialogDisappearAction?.Invoke();
+
         gameObject.SetActive(false);
     }
+
 
     IEnumerator CInputNextDialog()
     {
@@ -151,7 +159,7 @@ public class DialogManager : MonoBehaviour
 
     void Remove_AllChoice()
     {
-       foreach(Transform child in choiceGrid.transform)
+        foreach (Transform child in choiceGrid.transform)
         {
             Destroy(child.gameObject);
         }

@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: <sprite name="Crozier">
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 94243a911ee8e2247aa938cc094ab1f8, type: 2}
   m_sharedMaterial: {fileID: -1619528097042264085, guid: 94243a911ee8e2247aa938cc094ab1f8, type: 2}
@@ -735,3 +735,4 @@ MonoBehaviour:
   choice: {fileID: 2760798142823212454, guid: 49bbd00a730307e41b81a20383558afb, type: 3}
   endChoice: {fileID: 2760798142823212454, guid: e420d381e0f01a64fbe3c8e476b8c989, type: 3}
   anim: {fileID: 0}
+  trial: {fileID: 0}

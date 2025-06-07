@@ -26,5 +26,7 @@ public enum NextDialogMethod
 public enum DialogType
 {
     Default,
-    Choice
+    Choice,
+    Quest,
+    Answer
 }
