@@ -34,7 +34,7 @@ public class UI_Main_Interface : MonoBehaviour
 
     public void StartGame()
     {
-        fadeUI.FadeIn("SC");
+        fadeUI.FadeIn("Map");
     }
 
     public void Setting()
