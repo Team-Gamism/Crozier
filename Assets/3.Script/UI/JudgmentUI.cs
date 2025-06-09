@@ -7,6 +7,7 @@ public class JudgmentUI : MonoBehaviour
     public TextMeshProUGUI judgement;
     public JudgmentSO judgmentSO;
     [SerializeField] GameObject judgementDialogUI;
+    UI_Fade fadeUI;
 
     int fine =0;
     int imprisonment =0;
@@ -18,6 +19,7 @@ public class JudgmentUI : MonoBehaviour
     {
         judgement = Util.FindChild<TextMeshProUGUI>(gameObject,"Judgement",true);
         judgement.text = "";
+        fadeUI = FindAnyObjectByType<UI_Fade>();
     }
 
     public void PlusFine()
@@ -129,7 +131,6 @@ public class JudgmentUI : MonoBehaviour
                 }
             }
         }
-        Destroy(gameObject);
     }
 
     int conditionComplete = 0;
@@ -145,6 +146,8 @@ public class JudgmentUI : MonoBehaviour
                     return false;
                 DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
                 dialogManager.dialogSO = judgement.dialogSO;
+                dialogManager.dialogDisappearAction = GoMain;
+                Destroy(gameObject);
                 return true;
             }
             return false;
@@ -158,6 +161,8 @@ public class JudgmentUI : MonoBehaviour
                     return false;
                 DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
                 dialogManager.dialogSO = judgement.dialogSO;
+                dialogManager.dialogDisappearAction = GoMain;
+                Destroy(gameObject);
                 return true;
             }
             return false;
@@ -175,6 +180,8 @@ public class JudgmentUI : MonoBehaviour
                     return false;
                 DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
                 dialogManager.dialogSO = judgement.dialogSO;
+                dialogManager.dialogDisappearAction = GoMain;
+                Destroy(gameObject);
                 return true;
             }
             return false;
@@ -188,6 +195,8 @@ public class JudgmentUI : MonoBehaviour
                     return false;
                 DialogManager dialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
                 dialogManager.dialogSO = judgement.dialogSO;
+                dialogManager.dialogDisappearAction = GoMain;
+                Destroy(gameObject);
                 return true;
             }
             return false;
@@ -205,6 +214,8 @@ public class JudgmentUI : MonoBehaviour
                     return false;
                 DialogManager judgeDialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
                 judgeDialogManager.dialogSO = judgement.dialogSO;
+                judgeDialogManager.dialogDisappearAction = GoMain;
+                Destroy(gameObject);
                 return true;
             }
             return false;
@@ -218,12 +229,18 @@ public class JudgmentUI : MonoBehaviour
                     return false;
                 DialogManager judgeDialogManager = Instantiate(judgementDialogUI).GetComponent<DialogManager>();
                 judgeDialogManager.dialogSO = judgement.dialogSO;
+                judgeDialogManager.dialogDisappearAction = GoMain;
+                Destroy(gameObject);
                 return true;
             }
             return false;
         }
     }
 
+    void GoMain()
+    {
+        fadeUI.FadeIn("Map");    
+    }
 
     public void Hide()
     {

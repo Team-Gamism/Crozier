@@ -5,27 +5,30 @@ using UnityEngine;
 [Serializable]
 public class DialogData
 {
-    [Header("´ëÈ­ ³»¿ë »ğÀÔ")]
+    [Header("ëŒ€í™” ë‚´ìš© ì‚½ì…")]
     public string textData;
 
-    [Header("Å¸ÀÌÇÎ ½Ã°£")]
+    [Header("íƒ€ì´í•‘ ì‹œê°„")]
     public float typingTime;
 
-    [Header("´ëÈ­ Ä³¸¯ÅÍ ÀÌ¸§")]
+    [Header("ëŒ€í™” ìºë¦­í„° ì´ë¦„")]
     public string speakerName;
 
-    [Header("Ä³¸¯ÅÍ ¾Ö´Ï¸ŞÀÌ¼Ç")]
+    [Header("ìºë¦­í„° ì• ë‹ˆë©”ì´ì…˜")]
     public bool isUsedAnimation;
     public AnimationType animationType;
 
-    [Header("´ÙÀ½ ´ÙÀÌ¾ó·Î±× Index")]
+    [Header("ë‹¤ìŒ ë‹¤ì´ì–¼ë¡œê·¸ Index")]
     public NextDialogMethod nextDialogMethod;
     public int nextDialogIndex;
 
-    [Header("´ÙÀÌ¾ó·Î±× Å¸ÀÔ")]
+    [Header("ë‹¤ì´ì–¼ë¡œê·¸ íƒ€ì…")]
     public DialogType dialogType;
     public List<ChoiceData> choiceList;
 
     [Space(10)]
     public bool isLastDialog;
+
+    [Space(10)]
+    public bool isNoRecord;
 }

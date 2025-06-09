@@ -15,6 +15,8 @@ public class DialogManager : MonoBehaviour
     [SerializeField]
     Animator anim;
 
+    [SerializeField] UI_Fade fadeUI;
+
     TextMeshProUGUI nameText;
 
     Transform choiceGrid;
@@ -73,7 +75,9 @@ public class DialogManager : MonoBehaviour
             textUI.TypeingText(curDialogData);
         }
         SetName();
-        AddData(curDialogData);
+
+        if(!curDialogData.isNoRecord)
+            AddData(curDialogData);
     }
     void AddData(DialogData data)
     {
@@ -119,7 +123,7 @@ public class DialogManager : MonoBehaviour
                 if (!curDialogData.isLastDialog)
                     NextDialog();
                 else
-                    Disappear();
+                    Disappear();  
             }
         }
     }
