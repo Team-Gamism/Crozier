@@ -17,10 +17,10 @@ public class CodeOfLawController : MonoBehaviour
     private readonly int maxPage = 12;
 
     [SerializeField] GameObject contentObj;
-
     private int page;
     public int Page
     {
+        
         get => page;
         set
         {

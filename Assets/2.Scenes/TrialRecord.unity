@@ -815,7 +815,19 @@ PrefabInstance:
       propertyPath: maxPage
       value: 12
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7156349473295689436, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 1509647583969719171, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 5329245801357075055, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 2570150559838325361, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 4839638952644620091, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 4785578139648494144, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 1340490821864009278, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 8787898143669726854, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 3085800758428388572, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 5086105594822018484, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 5896046813124271534, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
+    - {fileID: 3792680507105444595, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1199130615924073507, guid: 40a0103d04a556348b863e65ae86070b, type: 3}
