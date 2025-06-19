@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f37a2e062517044aa8bbf7b10ecbed, type: 3}
+  m_Name: Problem1-3
+  m_EditorClassIdentifier: 
+  dialogDataList:
+  - textData: "\uC8FC\uAD50\uB2D8\uC758 \uD310\uB2E8\uC774 \uB0B4\uB824\uC84C\uC2B5\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uC11C\uAE30"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "(\uBD88\uB9CC \uAC00\uB4DD) \uACA8\uC6B0 \uC774 \uC815\uB3C4\uB85C
+      \uB05D\uB09C\uB2E8 \uB9D0\uC785\uB2C8\uAE4C? \uADF8\uB294 1\uB144\uC744 \uB118\uAC8C
+      \uC800\uB97C \uC18D\uC600\uC2B5\uB2C8\uB2E4!"
+    typingTime: 0.02
+    speakerName: "\uC6D0\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uC815\uC758\uB294 \uC5B4\uB514\uC5D0 \uC788\uB294 \uAC81\uB2C8\uAE4C?"
+    typingTime: 0.02
+    speakerName: "\uC6D0\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uAC10\uC0AC\uD569\uB2C8\uB2E4... \uC815\uB9D0 \uAC10\uC0AC\uD569\uB2C8\uB2E4.
+      \uC800\uB3C4 \uBE5A\uC744 \uC9C4 \uAC74 \uC54C\uACE0 \uC788\uC2B5\uB2C8\uB2E4.
+      \uC55E\uC73C\uB85C\uB294 \uBC14\uB974\uAC8C \uC0B4\uACA0\uC2B5\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uD53C\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uC8FC\uAD50\uB2D8\uC758 \uC790\uC560\uB85C\uC6C0\uC5D0 \uAC10\uC0AC\uB4DC\uB9BD\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uC99D\uC778"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uB54C\uB85C\uB294 \uB2E8\uC8C4\uBCF4\uB2E4 \uC774\uD574\uAC00 \uB354
+      \uD070 \uD798\uC774 \uB429\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uC99D\uC778"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 1
+    isNoRecord: 1
