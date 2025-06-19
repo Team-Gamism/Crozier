@@ -529,34 +529,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Code of Law
       objectReference: {fileID: 0}
-    - target: {fileID: 4781358374821989433, guid: ed3c2e260d287d44eb73c257e481cabd, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 780
-      objectReference: {fileID: 0}
-    - target: {fileID: 4781358374821989433, guid: ed3c2e260d287d44eb73c257e481cabd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144372551563627525, guid: ed3c2e260d287d44eb73c257e481cabd, type: 3}
-      propertyPath: m_text
-      value: "\uD53C\uACE0\uC778 : \uC800\uB294 \uC544\uBB34\uB7F0 \uC8C4\uC18C \uC5C6\uC74C\n\uC6D0\uACE0
-        : \u3134\u3134 \uC7E4 \uC798\uBABB\uD588\uC74C"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144372551563627525, guid: ed3c2e260d287d44eb73c257e481cabd, type: 3}
-      propertyPath: m_fontSize
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144372551563627525, guid: ed3c2e260d287d44eb73c257e481cabd, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144372551563627525, guid: ed3c2e260d287d44eb73c257e481cabd, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 256
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 6013423908973631082, guid: ed3c2e260d287d44eb73c257e481cabd, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40a0103d04a556348b863e65ae86070b, type: 3}

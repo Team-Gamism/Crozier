@@ -20,6 +20,7 @@ public class UI_Main_Interface : MonoBehaviour
     GameObject exitButton;
 
     public UI_Fade fadeUI;
+    public GameObject settingUI;
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -52,6 +53,7 @@ public class UI_Main_Interface : MonoBehaviour
 
     public void Setting()
     {
+        settingUI.SetActive(true);
         audioSource.PlayOneShot(buttonClickSound);
     }
 

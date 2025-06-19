@@ -40,7 +40,7 @@ public class DialogManager : MonoBehaviour
     {
         choiceGrid = Util.FindChild(gameObject, "ChoiceGrid", true).transform;
         nameText = Util.FindChild<TextMeshProUGUI>(gameObject, "NameText", true);
-
+        trial = GameObject.Find("TrialRecord").GetComponent<TrialRecord>();
 
         textUI.endDialogAction += EndDialog;
 
