@@ -23,6 +23,7 @@ MonoBehaviour:
     dialogType: 0
     choiceList: []
     isLastDialog: 0
+    isNoRecord: 1
   - textData: "\uC815\uB9D0 \uAC10\uC0AC\uD569\uB2C8\uB2E4... \uC8FC\uAD50\uB2D8"
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
@@ -33,6 +34,7 @@ MonoBehaviour:
     dialogType: 0
     choiceList: []
     isLastDialog: 0
+    isNoRecord: 1
   - textData: "\uC800\uCABD \uC0AC\uC815\uB3C4 \uB531\uD558\uC9C0\uB9CC..."
     typingTime: 0.02
     speakerName: "\uC6D0\uACE0"
@@ -43,6 +45,7 @@ MonoBehaviour:
     dialogType: 0
     choiceList: []
     isLastDialog: 0
+    isNoRecord: 1
   - textData: "\uC774\uAC74 \uB108\uBB34..."
     typingTime: 0.02
     speakerName: "\uC6D0\uACE0"
@@ -53,3 +56,4 @@ MonoBehaviour:
     dialogType: 0
     choiceList: []
     isLastDialog: 1
+    isNoRecord: 1

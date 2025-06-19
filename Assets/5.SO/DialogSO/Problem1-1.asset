@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f37a2e062517044aa8bbf7b10ecbed, type: 3}
+  m_Name: Problem1-1
+  m_EditorClassIdentifier: 
+  dialogDataList:
+  - textData: "\uC8FC\uAD50\uB2D8\uC758 \uD310\uB2E8\uC774 \uB0B4\uB824\uC84C\uC2B5\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uC11C\uAE30"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "...\uC774\uC81C\uC57C \uC870\uAE08\uC740 \uC18D\uC774 \uC2DC\uC6D0\uD558\uAD70\uC694."
+    typingTime: 0.02
+    speakerName: "\uC6D0\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uADF8\uB3D9\uC548\uC758 \uBC30\uC2E0\uAC10\uC774 \uC870\uAE08\uC774\uB098\uB9C8
+      \uC53B\uAE30\uB294 \uB290\uB08C\uC785\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uC6D0\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "(\uD55C\uC228) \uBB50, \uBC1B\uC544\uB4E4\uC5EC\uC57C\uACA0\uC9C0\uC694."
+    typingTime: 0.02
+    speakerName: "\uD53C\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uC801\uC5B4\uB3C4 \uB098\uC758 \uBCD1\uC744 \uC774\uD574\uBC1B\uC558\uB2E4\uB294
+      \uB370\uC5D0\uB294 \uC704\uC548\uC774 \uB429\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uD53C\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uD604\uBA85\uD55C \uD310\uACB0\uC774\uC5C8\uC2B5\uB2C8\uB2E4. \uADF8\uB97C
+      \uB3C4\uC640\uC8FC\uACE0\uC790 \uD55C \uC81C \uC9C4\uC2EC\uC774 \uC804\uB2EC\uB41C
+      \uB4EF\uD574 \uAE30\uC069\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uC99D\uC778"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 1
+    isNoRecord: 1
