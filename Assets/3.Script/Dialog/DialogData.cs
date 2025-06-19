@@ -9,14 +9,10 @@ public class DialogData
     public string textData;
 
     [Header("타이핑 시간")]
-    public float typingTime;
+    public float typingTime = 0.02f;
 
     [Header("대화 캐릭터 이름")]
     public string speakerName;
-
-    [Header("캐릭터 애니메이션")]
-    public bool isUsedAnimation;
-    public AnimationType animationType;
 
     [Header("다음 다이얼로그 Index")]
     public NextDialogMethod nextDialogMethod;

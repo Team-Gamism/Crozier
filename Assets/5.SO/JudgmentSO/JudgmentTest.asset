@@ -19,12 +19,12 @@ MonoBehaviour:
       up: 1
     dialogSO: {fileID: 11400000, guid: a705a8690ee960e4fbda594913babbd5, type: 2}
   - conditionList:
-    - judgementType: 0
-      amount: 1
-      up: 1
     - judgementType: 2
       amount: 0
       up: 1
+    - judgementType: 0
+      amount: 10
+      up: 0
     dialogSO: {fileID: 11400000, guid: 59102cd24e7feda4fa2573c2b02d70a2, type: 2}
   - conditionList:
     - judgementType: 0
@@ -33,6 +33,9 @@ MonoBehaviour:
     dialogSO: {fileID: 11400000, guid: 3536915abc550f44eac108c7fe23b5d7, type: 2}
   - conditionList:
     - judgementType: 0
+      amount: 20
+      up: 1
+    - judgementType: 2
       amount: 0
-      up: 0
-    dialogSO: {fileID: 11400000, guid: 3536915abc550f44eac108c7fe23b5d7, type: 2}
+      up: 1
+    dialogSO: {fileID: 11400000, guid: a705a8690ee960e4fbda594913babbd5, type: 2}

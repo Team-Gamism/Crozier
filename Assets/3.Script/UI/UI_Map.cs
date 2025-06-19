@@ -11,6 +11,10 @@ public class UI_Map : MonoBehaviour
 
     [SerializeField]
     UI_Fade fadeUI;
+    [SerializeField]
+    AudioClip audioClip;
+
+    AudioSource audioSource;
 
     TextMeshProUGUI title;
     TextMeshProUGUI descirption;
@@ -24,11 +28,12 @@ public class UI_Map : MonoBehaviour
         title = Util.FindChild<TextMeshProUGUI>(gameObject,"Title",true);
         descirption = Util.FindChild<TextMeshProUGUI>(gameObject,"Description",true);
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         for(int i = 0; i < houseList.Count; i++)
         {
             UI_EventHandler evt = houseList[i].GetComponent<UI_EventHandler>();
-            evt.clickAction += (PointerEventData p) => { stageSO = evt.GetComponent<StageUI>().stageSO; SetTextUI(); anim.Play("Show"); };
+            evt.clickAction += (PointerEventData p) => { stageSO = evt.GetComponent<StageUI>().stageSO; SetTextUI(); anim.Play("Show"); audioSource.PlayOneShot(audioClip); };
         }
     }
 
