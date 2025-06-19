@@ -726,6 +726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   judgmentUI: {fileID: 557682666330252130, guid: 0f904b6ddd238a847bb434cbcf7c11ea, type: 3}
+  judgmentSO: {fileID: 0}
 --- !u!95 &1419599586
 Animator:
   serializedVersion: 7

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HouseUI-Photoroom_0: -4709103070096776249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

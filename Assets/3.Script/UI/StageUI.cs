@@ -12,4 +12,6 @@ public class StageUI : MonoBehaviour
         evt.enterAction += (PointerEventData p) => { transform.DOScale(1.2f, 0.5f); };
         evt.exitAction += (PointerEventData p) => { transform.DOScale(1f, 0.5f); };
     }
+
+
 }
