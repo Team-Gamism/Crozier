@@ -9,13 +9,15 @@ public class TrialRecordController : MonoBehaviour
 {
     public TextMeshProUGUI trialRecordText;
 
+    private const int maxLine = 15;
+
     private int page;
     public int Page
     {
         get => page;
         set
         {
-            page = Mathf.Clamp(value, 0, datas.Length / 20);
+            page = Mathf.Clamp(value, 0, datas.Length / maxLine);
             DisplayRecord();
         }
     }
@@ -36,7 +38,7 @@ public class TrialRecordController : MonoBehaviour
     void DisplayRecord()
     {
         trialRecordText.text = "";
-        for (int i = (Page == 0 ? 1 : (Page * 20)); i < Mathf.Clamp((Page == 0 ? 1 : (Page * 20)) + 20, 20, datas.Length); i++)
+        for (int i = (Page == 0 ? 1 : (Page * maxLine)); i < Mathf.Clamp((Page == 0 ? 1 : (Page * maxLine)) + maxLine, maxLine, datas.Length); i++)
         {
             trialRecordText.text += datas[i - 1] + "\n";
         }

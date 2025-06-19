@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: <sprite name="Crozier">
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 94243a911ee8e2247aa938cc094ab1f8, type: 2}
-  m_sharedMaterial: {fileID: -1619528097042264085, guid: 94243a911ee8e2247aa938cc094ab1f8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}
+  m_sharedMaterial: {fileID: -5460286888530709400, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -93,12 +93,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 58
+  m_fontSizeBase: 58
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 42
+  m_fontSizeMax: 58
   m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 43a7d98bd4222b64e933596512dc09ad, type: 3}
+  m_Sprite: {fileID: -4364833654108675485, guid: 1ab54ae43fc95fd449229e112412513b, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.01
 --- !u!1 &4301556388009389757
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 43a7d98bd4222b64e933596512dc09ad, type: 3}
+  m_Sprite: {fileID: -4364833654108675485, guid: 1ab54ae43fc95fd449229e112412513b, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.42
 --- !u!1 &5896892187259108999
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,8 +545,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uC6D0\uACE0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 94243a911ee8e2247aa938cc094ab1f8, type: 2}
-  m_sharedMaterial: {fileID: -1619528097042264085, guid: 94243a911ee8e2247aa938cc094ab1f8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}
+  m_sharedMaterial: {fileID: -5460286888530709400, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -570,10 +570,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 55
   m_fontStyle: 1
@@ -735,4 +735,5 @@ MonoBehaviour:
   choice: {fileID: 2760798142823212454, guid: 49bbd00a730307e41b81a20383558afb, type: 3}
   endChoice: {fileID: 2760798142823212454, guid: e420d381e0f01a64fbe3c8e476b8c989, type: 3}
   anim: {fileID: 0}
+  fadeUI: {fileID: 0}
   trial: {fileID: 0}

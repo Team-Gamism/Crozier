@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: afa6d8c79f0fd6646a12bfe3e3f92d1e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8bda33a485c18474a92c79ebe00f762f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_StrikethroughThickness: 0
     m_TabWidth: 0
   m_Material: {fileID: 2103686}
-  spriteSheet: {fileID: 2800000, guid: afa6d8c79f0fd6646a12bfe3e3f92d1e, type: 3}
+  spriteSheet: {fileID: 2800000, guid: 8bda33a485c18474a92c79ebe00f762f, type: 3}
   m_SpriteCharacterTable:
   - m_ElementType: 2
     m_Unicode: 128522
@@ -166,6 +166,21 @@ MonoBehaviour:
     m_GlyphIndex: 16
     m_Scale: 1
     m_Name: Crozier
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 17
+    m_Scale: 1
+    m_Name: CrozierDraw-removebg-preview_0
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 18
+    m_Scale: 1
+    m_Name: CrozierDraw-Photoroom_0
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 19
+    m_Scale: 1
+    m_Name: CrozierDraw-Photoroom (1)_0
   m_GlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -439,6 +454,54 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: 3038356268880642374, guid: afa6d8c79f0fd6646a12bfe3e3f92d1e, type: 3}
+  - m_Index: 17
+    m_Metrics:
+      m_Width: 135
+      m_Height: 270
+      m_HorizontalBearingX: -67.5
+      m_HorizontalBearingY: 135
+      m_HorizontalAdvance: 135
+    m_GlyphRect:
+      m_X: 35
+      m_Y: 21
+      m_Width: 135
+      m_Height: 270
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 1641481888400562663, guid: 0071a5e3a03a09b42b42d08ab006c2b7, type: 3}
+  - m_Index: 18
+    m_Metrics:
+      m_Width: 135
+      m_Height: 271
+      m_HorizontalBearingX: -67.5
+      m_HorizontalBearingY: 135.5
+      m_HorizontalAdvance: 135
+    m_GlyphRect:
+      m_X: 35
+      m_Y: 20
+      m_Width: 135
+      m_Height: 271
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 1201195712618469094, guid: fd8d5629c22b0bd40aa6c3c62eb129e1, type: 3}
+  - m_Index: 19
+    m_Metrics:
+      m_Width: 921.4893
+      m_Height: 1855.5706
+      m_HorizontalBearingX: -460.74466
+      m_HorizontalBearingY: 927.7853
+      m_HorizontalAdvance: 921.4893
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 1285
+      m_Height: 2048
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 6153972011017259913, guid: 8bda33a485c18474a92c79ebe00f762f, type: 3}
   spriteInfoList:
   - id: 0
     x: 0

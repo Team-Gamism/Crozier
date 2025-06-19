@@ -10,6 +10,7 @@ public class UI_Main_Interface : MonoBehaviour
     GameObject exitButton;
 
     public UI_Fade fadeUI;
+    public GameObject settingUI;
     private void Start()
     {
         startButton = Util.FindChild(gameObject,"Start",true);
@@ -39,7 +40,7 @@ public class UI_Main_Interface : MonoBehaviour
 
     public void Setting()
     {
-
+        settingUI.SetActive(true);
     }
 
     public void Exit()
