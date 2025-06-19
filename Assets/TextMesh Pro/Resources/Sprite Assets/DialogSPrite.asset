@@ -441,10 +441,10 @@ MonoBehaviour:
     sprite: {fileID: 3038356268880642374, guid: afa6d8c79f0fd6646a12bfe3e3f92d1e, type: 3}
   - m_Index: 17
     m_Metrics:
-      m_Width: 135
+      m_Width: 148.81
       m_Height: 270
-      m_HorizontalBearingX: -67.5
-      m_HorizontalBearingY: 135
+      m_HorizontalBearingX: 61.1
+      m_HorizontalBearingY: 229.7
       m_HorizontalAdvance: 135
     m_GlyphRect:
       m_X: 35

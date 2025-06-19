@@ -22,10 +22,10 @@ MonoBehaviour:
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
-  - textData: "\uC624\uB298\uC758 \uC0AC\uAC74\uC740 \uACE0(\u6545) \uB9C8\uB974\uCFE0\uC2A4
-      \uACBD\uC758 \uC720\uC5B8\uC7A5\uC5D0 \uB530\uB77C \uC0C1\uC18D\uC790\uAC00
-      \uCE5C\uC871\uC774 \uC544\uB2CC \uC81C3\uC790\uC778 \uC5D8\uB9AC\uC624\uB85C
-      \uC9C0\uC815\uB41C \uC0AC\uC548\uC785\uB2C8\uB2E4."
+  - textData: "\uC624\uB298\uC758 \uC0AC\uAC74\uC740 \uB9C8\uB974\uCFE0\uC2A4 \uACBD\uC758
+      \uC720\uC5B8\uC7A5\uC5D0 \uB530\uB77C \uC0C1\uC18D\uC790\uAC00 \uCE5C\uC871\uC774
+      \uC544\uB2CC \uC81C3\uC790\uC778 \uC5D8\uB9AC\uC624\uB85C \uC9C0\uC815\uB41C
+      \uC0AC\uC548\uC785\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
     nextDialogMethod: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
     nextDialogMethod: 1
-    nextDialogIndex: 0
+    nextDialogIndex: 25
     dialogType: 1
     choiceList:
     - startDialogIndex: 19
@@ -215,7 +215,7 @@ MonoBehaviour:
     speakerName: Player
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList:
     - startDialogIndex: 19
       choiceText: "\uACF5\uC99D\uC778 \u2018\uB8E8\uD0A4\uC6B0\uC2A4\u2019 \uB2D8\uACFC,
@@ -235,7 +235,7 @@ MonoBehaviour:
     speakerName: "\uD53C\uACE0"
     nextDialogMethod: 1
     nextDialogIndex: 18
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
     speakerName: Player
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -264,7 +264,7 @@ MonoBehaviour:
     speakerName: Player
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
     speakerName: "\uD53C\uACE0"
     nextDialogMethod: 1
     nextDialogIndex: 18
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -284,15 +284,15 @@ MonoBehaviour:
     speakerName: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uB2F9\uC2DC \uC0C1\uD669\uC744 \uC124\uBA85\uD574 \uC8FC\uC2ED\uC2DC\uC624."
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
-    nextDialogMethod: 1
-    nextDialogIndex: 18
+    nextDialogMethod: 0
+    nextDialogIndex: 0
     dialogType: 1
     choiceList: []
     isLastDialog: 0
@@ -301,9 +301,9 @@ MonoBehaviour:
       \uC720\uC5B8\uC744 \uB0A8\uAE30\uC168\uACE0,"
     typingTime: 0.02
     speakerName: "\uACF5\uC99D\uC778"
-    nextDialogMethod: 1
-    nextDialogIndex: 18
-    dialogType: 1
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -312,7 +312,7 @@ MonoBehaviour:
     speakerName: "\uACF5\uC99D\uC778"
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
     speakerName: "\uACF5\uC99D\uC778"
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
     speakerName: "\uACF5\uC99D\uC778"
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
     speakerName: "\uACF5\uC99D\uC778"
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -349,7 +349,7 @@ MonoBehaviour:
     speakerName: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0

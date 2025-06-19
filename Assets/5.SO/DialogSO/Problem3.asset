@@ -160,7 +160,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
     nextDialogMethod: 1
-    nextDialogIndex: 0
+    nextDialogIndex: 28
     dialogType: 1
     choiceList:
     - startDialogIndex: 15
@@ -219,7 +219,7 @@ MonoBehaviour:
       \uC0C1\uCC98\uAC00 \uB0A8\uC544 \uC9C0\uAE08\uAE4C\uC9C0 \uD68C\uBCF5\uB418\uC9C0
       \uC54A\uC558\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: Player
+    speakerName: "\uD53C\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -230,8 +230,8 @@ MonoBehaviour:
       \uADF8\uB798\uC11C \uC804 \uC7A5\uAC11\uC744 \uB07C\uACE0 \uB2E4\uB154\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
-    nextDialogMethod: 0
-    nextDialogIndex: 0
+    nextDialogMethod: 1
+    nextDialogIndex: 14
     dialogType: 0
     choiceList: []
     isLastDialog: 0
@@ -339,5 +339,5 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    isLastDialog: 0
+    isLastDialog: 1
     isNoRecord: 0

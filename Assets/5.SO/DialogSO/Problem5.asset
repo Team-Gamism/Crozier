@@ -292,7 +292,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
     nextDialogMethod: 1
-    nextDialogIndex: 0
+    nextDialogIndex: 36
     dialogType: 1
     choiceList:
     - startDialogIndex: 28

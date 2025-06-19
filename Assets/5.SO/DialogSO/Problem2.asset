@@ -199,7 +199,7 @@ MonoBehaviour:
       \uAE08\uC9C0\uD588\uACE0, \uC81C \uC218\uC785\uC758 \uC808\uBC18\uC744 \uAC15\uC81C\uB85C
       \uAC00\uC838\uAC14\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
+    speakerName: "\uC6D0\uACE0"
     nextDialogMethod: 1
     nextDialogIndex: 13
     dialogType: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
   - textData: "\uB124, \uC138 \uACC4\uC57D \uBAA8\uB450 \uAE30\uB85D\uAD00 \uB9C8\uB974\uCF08\uB8E8\uC2A4\uC5D0\uAC8C\uC11C
       \uBC1B\uC740 \uC0AC\uBCF8\uC774 \uC788\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: Player
+    speakerName: "\uC6D0\uACE0"
     nextDialogMethod: 1
     nextDialogIndex: 13
     dialogType: 0

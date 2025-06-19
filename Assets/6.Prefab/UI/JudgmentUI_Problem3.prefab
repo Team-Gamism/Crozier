@@ -117,9 +117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   judgementDialogUI: {fileID: 7353767054229811520, guid: c33141c38d0682a4e8a69be368754e9b, type: 3}
   judgments:
-  - {fileID: 11400000, guid: 73fdc60d00c245e44bc300c0c51a15fb, type: 2}
   - {fileID: 11400000, guid: 157c3b48d051b2140a8e96b48f00d8ce, type: 2}
-  - {fileID: 11400000, guid: 157c3b48d051b2140a8e96b48f00d8ce, type: 2}
+  - {fileID: 11400000, guid: 0e6949ca1c8f4ac44924fb42dba7701d, type: 2}
 --- !u!1 &1688368663093842751
 GameObject:
   m_ObjectHideFlags: 0

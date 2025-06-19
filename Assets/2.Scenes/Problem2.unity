@@ -971,7 +971,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 3cde273c9f65a8242916329758a1bb52, type: 2}
     - target: {fileID: 4718708895308364626, guid: c33141c38d0682a4e8a69be368754e9b, type: 3}
       propertyPath: m_text
-      value: <sprite name="Crozier">
+      value: "\u3137\u3137\u3137\u3137<sprite name=\"Crozier\">"
       objectReference: {fileID: 0}
     - target: {fileID: 4718708895308364626, guid: c33141c38d0682a4e8a69be368754e9b, type: 3}
       propertyPath: m_spriteAsset
