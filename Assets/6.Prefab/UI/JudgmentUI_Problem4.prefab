@@ -119,6 +119,7 @@ MonoBehaviour:
   judgments:
   - {fileID: 11400000, guid: 93d7152c68af0d743aee58e4779e7a0b, type: 2}
   - {fileID: 11400000, guid: 28c114d72cf1d8749b6991468a3f103d, type: 2}
+  reputationAmountList: 14000000ecffffff
 --- !u!1 &1688368663093842751
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,8 +861,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: JudgmentUI, Assembly-CSharp
+      - m_Target: {fileID: 824632737114970262}
+        m_TargetAssemblyTypeName: JudgmentUI_Choice, Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 1
         m_Arguments:
