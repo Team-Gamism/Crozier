@@ -23,7 +23,11 @@ public class JudgmentUI_Choice : MonoBehaviour
     }
     void GoMain()
     {
-        fadeUI.FadeIn("Map");
+        List<bool> boolList = SingleTon<GameManager>.Instance.completeJudgementList;
+        if (boolList[0] && boolList[1] && boolList[2] && boolList[3] && boolList[4])
+            fadeUI.FadeIn("Ending");
+        else
+            fadeUI.FadeIn("Map");
     }
 
     public void Hide()

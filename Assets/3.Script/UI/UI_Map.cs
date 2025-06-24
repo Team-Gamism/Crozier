@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UI_Map : MonoBehaviour
 {
@@ -19,25 +20,53 @@ public class UI_Map : MonoBehaviour
     TextMeshProUGUI title;
     TextMeshProUGUI descirption;
 
+    [SerializeField] Sprite houseSprite;
+
+    int index;
     StageSO stageSO;
 
     Animator anim;
 
     private void Start()
     {
-        title = Util.FindChild<TextMeshProUGUI>(gameObject,"Title",true);
-        descirption = Util.FindChild<TextMeshProUGUI>(gameObject,"Description",true);
+        title = Util.FindChild<TextMeshProUGUI>(gameObject, "Title", true);
+        descirption = Util.FindChild<TextMeshProUGUI>(gameObject, "Description", true);
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
 
-        for(int i = 0; i < houseList.Count; i++)
+        if (!SingleTon<GameManager>.Instance.isStartedNewGame)
+        {
+            SingleTon<GameManager>.Instance.completeJudgementList = new();
+            for (int i = 0; i < houseList.Count; i++)
+            {
+                SingleTon<GameManager>.Instance.completeJudgementList.Add(false);
+            }
+            SingleTon<GameManager>.Instance.isStartedNewGame = true;
+        }
+        for (int i = 0; i < houseList.Count; i++)
+        {
+            houseList[i].GetComponent<StageUI>().index = i;
+        }
+
+        for (int i = 0; i < houseList.Count; i++)
         {
             UI_EventHandler evt = houseList[i].GetComponent<UI_EventHandler>();
-            evt.clickAction += (PointerEventData p) => { stageSO = evt.GetComponent<StageUI>().stageSO; SetTextUI(); anim.Play("Show"); audioSource.PlayOneShot(audioClip); };
+            if (!SingleTon<GameManager>.Instance.completeJudgementList[i])
+            {
+                evt.clickAction += (PointerEventData p) => { index = evt.GetComponent<StageUI>().index; stageSO = evt.GetComponent<StageUI>().stageSO; SetTextUI(); anim.Play("Show"); audioSource.PlayOneShot(audioClip); };
+                evt.enterAction += (PointerEventData p) => { evt.GetComponent<StageUI>().EnterAction(); };
+                evt.exitAction += (PointerEventData p) => { evt.GetComponent<StageUI>().ExitAction(); };
+            }
+            else
+            {
+                evt.GetComponent<Image>().sprite = houseSprite;
+                evt.GetComponent<RectTransform>().sizeDelta = new Vector2(95, 95);
+            }
         }
+
+       
+
     }
-
-
 
     void SetTextUI()
     {
@@ -52,6 +81,7 @@ public class UI_Map : MonoBehaviour
 
     public void Play()
     {
+        SingleTon<GameManager>.Instance.completeJudgementList[index] = true;
         fadeUI.FadeIn(stageSO.sceneName);
     }
 }

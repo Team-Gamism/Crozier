@@ -54,7 +54,7 @@ MonoBehaviour:
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
-  - textData: "\uADF8\uB807\uC2B5\uB2C8\uB2E4, \uC8FC\uAD50\uB2D8."
+  - textData: "\uADF8\uB807\uC2B5\uB2C8\uB2E4"
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
     nextDialogMethod: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
     speakerName: "\uD53C\uACE0"
     nextDialogMethod: 1
     nextDialogIndex: 18
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -293,7 +293,7 @@ MonoBehaviour:
     speakerName: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
-    dialogType: 1
+    dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 0
@@ -351,5 +351,5 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    isLastDialog: 0
+    isLastDialog: 1
     isNoRecord: 0

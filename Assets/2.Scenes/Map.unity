@@ -229,7 +229,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 615, y: 236.2}
-  m_SizeDelta: {x: 92.2729, y: 87.3}
+  m_SizeDelta: {x: 95, y: 95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &357952886
 MonoBehaviour:
@@ -388,7 +388,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -706, y: -245.8}
-  m_SizeDelta: {x: 92.2729, y: 87.3}
+  m_SizeDelta: {x: 95, y: 95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &386802057
 MonoBehaviour:
@@ -463,7 +463,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 495, y: -284.7}
-  m_SizeDelta: {x: 92.2729, y: 87.3}
+  m_SizeDelta: {x: 95, y: 95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459685577
 MonoBehaviour:
@@ -629,6 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e73dacaac1f9cfb4ba519fcf6ae32921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   stageSO: {fileID: 11400000, guid: 3b0eba6a91a581d43975bb901c4ec4b8, type: 2}
 --- !u!114 &572863337
 MonoBehaviour:
@@ -742,6 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e73dacaac1f9cfb4ba519fcf6ae32921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   stageSO: {fileID: 11400000, guid: 0bdbf803d236cee4abf603be3c6ff18c, type: 2}
 --- !u!114 &930166955
 MonoBehaviour:
@@ -1219,6 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e73dacaac1f9cfb4ba519fcf6ae32921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   stageSO: {fileID: 11400000, guid: d6b8a5210be03cb47afb9b63c4739976, type: 2}
 --- !u!1 &1431538476
 GameObject:
@@ -1369,7 +1372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1435186182
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1623,6 +1626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e73dacaac1f9cfb4ba519fcf6ae32921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   stageSO: {fileID: 11400000, guid: 77d36425271f7974db7543dcdb09d201, type: 2}
 --- !u!114 &1508853282
 MonoBehaviour:
@@ -2157,7 +2161,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -255, y: -372}
-  m_SizeDelta: {x: 92.2729, y: 87.3}
+  m_SizeDelta: {x: 95, y: 95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1790926468
 MonoBehaviour:
@@ -2323,6 +2327,7 @@ MonoBehaviour:
   - {fileID: 930166952}
   fadeUI: {fileID: 707499604}
   audioClip: {fileID: 8300000, guid: 4d515f2e056524e138b70c4cfd44f0c3, type: 3}
+  houseSprite: {fileID: 4739430164193722983, guid: 8791df52fc652f043b4a800238d50695, type: 3}
 --- !u!95 &1881272120
 Animator:
   serializedVersion: 7
@@ -2493,6 +2498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e73dacaac1f9cfb4ba519fcf6ae32921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   stageSO: {fileID: 11400000, guid: 619b35391df206a48a9809af3a106a23, type: 2}
 --- !u!114 &1937775200
 MonoBehaviour:

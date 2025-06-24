@@ -4,14 +4,16 @@ using UnityEngine.EventSystems;
 
 public class StageUI : MonoBehaviour
 {
+    public int index;
     public StageSO stageSO;
 
-    private void Start()
+    public void EnterAction()
     {
-        UI_EventHandler evt = GetComponent<UI_EventHandler>();
-        evt.enterAction += (PointerEventData p) => { transform.DOScale(1.2f, 0.5f); };
-        evt.exitAction += (PointerEventData p) => { transform.DOScale(1f, 0.5f); };
+        transform.DOScale(1.2f, 0.5f);
     }
 
-
+    public void ExitAction()
+    {
+        transform.DOScale(1f, 0.5f);
+    }
 }

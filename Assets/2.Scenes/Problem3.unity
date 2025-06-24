@@ -844,7 +844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a60c7026836c79249b76daab9d971fd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  judgmentUI: {fileID: 557682666330252130, guid: ce13ad291c317ad4181285f5fedbabc9, type: 3}
+  judgmentUI: {fileID: 557682666330252130, guid: b04c61211d2ec6b4e97cf0b3a4ba0eb9, type: 3}
 --- !u!1 &1499947635
 GameObject:
   m_ObjectHideFlags: 0

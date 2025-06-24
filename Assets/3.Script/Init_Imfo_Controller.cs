@@ -9,6 +9,7 @@ public class Init_Imfo_Controller : MonoBehaviour
 
     void Init_Imfo()
     {
-        SingleTon<GameManager>.Instance.reputation = 0;
+        if(!SingleTon<GameManager>.Instance.isStartedNewGame)
+            SingleTon<GameManager>.Instance.reputation = 0;
     }
 }
