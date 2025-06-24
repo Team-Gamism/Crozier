@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class UI_Fade : MonoBehaviour
 {
     string sceneName;
-    public GameObject introUI;
+    public Animator introUI;
 
     Animator anim;
 
@@ -15,11 +15,11 @@ public class UI_Fade : MonoBehaviour
         {
             anim.Play("FadeOut");
             if(introUI != null)
-                introUI.SetActive(false);
+                introUI.Play("Default");
         }
         else
         {
-            introUI.SetActive(true);
+            introUI.Play("Start");
             GameManager.Instance.isIntroShown = true;
         }
     }
