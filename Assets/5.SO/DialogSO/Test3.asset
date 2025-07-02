@@ -13,45 +13,98 @@ MonoBehaviour:
   m_Name: Test3
   m_EditorClassIdentifier: 
   dialogDataList:
-  - textData: "\uC774\uC81C \uC5B4\uB5A1\uD574\uC57C \uD558\uC9C0..."
+  - textData: "\uC8FC\uAD50\uB2D8\uC758 \uD310\uACB0\uC744 \uC804\uD558\uACA0\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
-    isUsedAnimation: 0
-    animationType: 0
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 1
-  - textData: "\uD5C8\uD5C8.. \uCC38 \uC774\uAC8C.."
+  - textData: "\uC774 \uC7AC\uD310\uC740 \uB2E8\uC21C\uD55C \uB3C4\uB451\uC9C8\uC774
+      \uC544\uB2CC, \uD55C \uC0AC\uB78C\uC758 \uC0DD\uC874\uC744 \uD5A5\uD55C \uC808\uADDC\uC600\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
-    isUsedAnimation: 0
-    animationType: 0
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 1
-  - textData: "\uD639\uC2DC.. \uC870\uCE74\uB97C \uD55C \uBC88\uB9CC.. \uB9CC\uB098\uAC8C
-      \uD574\uC8FC\uC2E4 \uC218 \uC788\uB098\uC694..?"
+  - textData: "\uBC95\uC740 \uC778\uAC04\uC744 \uC704\uD574 \uC874\uC7AC\uD569\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
-    isUsedAnimation: 0
-    animationType: 0
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
     isLastDialog: 0
     isNoRecord: 1
-  - textData: "\uBD80\uD0C1\uB4DC\uB9BD\uB2C8\uB2E4...."
+  - textData: "...\uC8FC\uAD50\uB2D8... \uAC10\uC0AC\uD569\uB2C8\uB2E4... \uB2E4\uC2DC\uB294...
+      \uB2E4\uC2DC\uB294 \uC81C \uC190\uC774 \uBA4B\uB300\uB85C \uC6C0\uC9C1\uC774\uC9C0
+      \uC54A\uB3C4\uB85D \uD558\uACA0\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
-    isUsedAnimation: 0
-    animationType: 0
+    speakerName: "\uBE4C"
+    speakerJob: "\uD53C\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uC774\uB7F0 \uC2DD\uC774\uBA74 \uC55E\uC73C\uB85C \uB2E4\uB4E4 \uBE75\uC744
+      \uD6D4\uCCD0\uB3C4 \uB418\uACA0\uAD70\uC694."
+    typingTime: 0.02
+    speakerName: "\uC5D0\uB108\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uC8FC\uAD50\uB2D8, \uC774\uAC74 \uC62C\uBC14\uB978 \uC120\uB840\uAC00
+      \uC544\uB2D9\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uC5D0\uB108\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uB54C\uB85C\uB294, \uAC00\uC7A5 \uC791\uC740 \uC8C4\uAC00 \uAC00\uC7A5
+      \uD070 \uC790\uBE44\uB97C \uC2DC\uD5D8\uD569\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uC624\uB298\uC740, \uC815\uC758\uBCF4\uB2E4 \uC778\uAC04\uC758 \uBCF8\uC131\uC5D0
+      \uADC0 \uAE30\uC6B8\uC778 \uB0A0\uC785\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
+  - textData: "\uC8FC\uAD50\uB2D8\uC774\uB77C\uBA74 \uB2E4\uB978 \uC7AC\uD310\uB4E4\uB3C4
+      \uC798 \uD574\uB0B4\uC2E4\uAC81\uB2C8\uB2E4"
+    typingTime: 0.02
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0

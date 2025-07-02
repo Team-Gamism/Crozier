@@ -17,6 +17,7 @@ MonoBehaviour:
       \uD37C\uB728\uB838\uC73C\uBA70"
     typingTime: 0.02
     speakerName: Player
+    speakerJob: "\uD310\uC0AC"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -27,6 +28,7 @@ MonoBehaviour:
       \uBD84\uB178\uB2E4."
     typingTime: 0.02
     speakerName: Player
+    speakerJob: "\uD310\uC0AC"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -36,6 +38,7 @@ MonoBehaviour:
   - textData: "\uBD88\uB85C\uC368 \uC815\uD654\uD568\uC774 \uC633\uB2E4."
     typingTime: 0.02
     speakerName: Player
+    speakerJob: "\uD310\uC0AC"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -45,7 +48,8 @@ MonoBehaviour:
   - textData: "(\uB85C\uB124\uD2B8\uB294 \uB208\uC744 \uAC10\uB294\uB2E4.) \u201C\u2026\uC81C\uBC1C
       \uC81C \uB538\uC5D0\uAC8C\uB9CC\uC740 \uC190\uB300\uC9C0 \uB9D0\uC544\uC8FC\uC138\uC694\u2026\u201D"
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
+    speakerName: "\uB85C\uB124\uD2B8"
+    speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0

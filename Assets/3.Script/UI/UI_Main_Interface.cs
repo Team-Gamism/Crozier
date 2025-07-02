@@ -13,8 +13,8 @@ public class UI_Main_Interface : MonoBehaviour
 
     AudioSource audioSource;
 
-    
 
+    GameObject tutorialButton;
     GameObject startButton;
     GameObject settingButton;
     GameObject exitButton;
@@ -25,6 +25,7 @@ public class UI_Main_Interface : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
+        tutorialButton = Util.FindChild(gameObject, "Tutorial", true);
         startButton = Util.FindChild(gameObject,"Start",true);
         settingButton = Util.FindChild(gameObject,"Setting",true);
         exitButton = Util.FindChild(gameObject,"Exit",true);
@@ -32,6 +33,10 @@ public class UI_Main_Interface : MonoBehaviour
         UI_EventHandler evt = startButton.GetComponent<UI_EventHandler>();
         evt.enterAction += (PointerEventData p) => { startButton.transform.DOLocalMoveX(-932,0.6f); audioSource.PlayOneShot(buttonEnterSound); };
         evt.exitAction += (PointerEventData p) => { startButton.transform.DOLocalMoveX(-1032, 0.6f); };
+
+        evt = tutorialButton.GetComponent<UI_EventHandler>();
+        evt.enterAction += (PointerEventData p) => { tutorialButton.transform.DOLocalMoveX(-932, 0.6f); audioSource.PlayOneShot(buttonEnterSound); };
+        evt.exitAction += (PointerEventData p) => { tutorialButton.transform.DOLocalMoveX(-1032, 0.6f); };
 
         evt = settingButton.GetComponent<UI_EventHandler>();
         evt.enterAction += (PointerEventData p) => { settingButton.transform.DOLocalMoveX(-932, 0.6f); audioSource.PlayOneShot(buttonEnterSound); };
@@ -41,9 +46,6 @@ public class UI_Main_Interface : MonoBehaviour
         evt.enterAction += (PointerEventData p) => { exitButton.transform.DOLocalMoveX(-932, 0.6f); audioSource.PlayOneShot(buttonEnterSound); };
         evt.exitAction += (PointerEventData p) => { exitButton.transform.DOLocalMoveX(-1032, 0.6f); };
     }
-
-
-
 
     public void StartGame()
     {

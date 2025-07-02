@@ -15,7 +15,8 @@ MonoBehaviour:
   dialogDataList:
   - textData: "\uC7AC\uD310\uC744 \uC2DC\uC791\uD558\uACA0\uC2B5\uB2C8\uB2E4!"
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -26,7 +27,8 @@ MonoBehaviour:
       \uC544\uBC84\uC9C0 \uAC08\uB8E8\uC2A4\uB97C \uC0C1\uB300\uB85C \uBD80\uAD8C
       \uC0C1\uC2E4\uC744 \uC694\uAD6C\uD55C \uB0B4\uC6A9\uC785\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -35,7 +37,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC790, \uC6D0\uACE0 \uB8E8\uD0A4\uC6B0\uC2A4, \uC9C4\uC220\uD558\uC2ED\uC2DC\uC624."
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -44,7 +47,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC8FC\uAD50\uB2D8\u2026 \uC804 \uC81C \uC544\uBC84\uC9C0\uB97C \uACE0\uBC1C\uD569\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -54,7 +58,8 @@ MonoBehaviour:
   - textData: "\uADF8\uB294 \uC800\uB97C \uC138 \uBC88\uC774\uB098 \uD314\uC558\uC2B5\uB2C8\uB2E4.
       \uB178\uC608\uCC98\uB7FC\uC694."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -63,7 +68,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uCC98\uC74C\uC5D4 \uBE5A \uB300\uC2E0 \uC800\uB97C \uB118\uACBC\uACE0,"
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -73,7 +79,8 @@ MonoBehaviour:
   - textData: "\uB450 \uBC88\uC9F8\uB294 \uC18C\uC791\uC9C0\uC5D0\uC11C \uB178\uC5ED\uD558\uB3C4\uB85D
       \uACC4\uC57D\uC11C\uC5D0 \uC11C\uBA85\uD588\uC73C\uBA70,"
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -83,7 +90,8 @@ MonoBehaviour:
   - textData: "\uC138 \uBC88\uC9F8\uB294 \uC800\uB97C \uD558\uC778\uC73C\uB85C \uB118\uAE30\uB294
       \uACC4\uC57D\uC11C\uB97C \uC9C1\uC811 \uC791\uC131\uD588\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -93,7 +101,8 @@ MonoBehaviour:
   - textData: "\uC774 \uBAA8\uB4E0 \uACC4\uC57D\uC740 \uAE30\uB85D\uAD00\uC2E4\uC5D0
       \uBCF4\uAD00\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -103,7 +112,8 @@ MonoBehaviour:
   - textData: "\uADF8\uB7F0\uB370\uB3C4 \uADF8\uB294 \uC800\uB97C \uC790\uC2DD\uC774\uB77C
       \uBD80\uB974\uBA70, \uC81C \uC0B6\uC744 \uC870\uC885\uD558\uB824 \uD569\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -113,7 +123,8 @@ MonoBehaviour:
   - textData: "\uC774 \uBAA8\uB4E0 \uACC4\uC57D\uC740 \uAE30\uB85D\uAD00\uC2E4\uC5D0
       \uBCF4\uAD00\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -123,7 +134,8 @@ MonoBehaviour:
   - textData: "\uADF8\uB7F0\uB370\uB3C4 \uADF8\uB294 \uC800\uB97C \uC790\uC2DD\uC774\uB77C
       \uBD80\uB974\uBA70, \uC81C \uC0B6\uC744 \uC870\uC885\uD558\uB824 \uD569\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -132,7 +144,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC798 \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -141,7 +154,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC8FC\uAD50\uB2D8, \uC6D0\uACE0\uC5D0\uAC8C \uC9C8\uBB38\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 1
     nextDialogIndex: 21
     dialogType: 1
@@ -157,7 +171,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC138 \uBC88\uC758 \uACC4\uC57D \uB0B4\uC6A9\uC744 \uC124\uBA85\uD574\uBCF4\uC2ED\uC2DC\uC624"
     typingTime: 0.02
-    speakerName: "\uAE30\uB85D\uAD00"
+    speakerName: Player
+    speakerJob: "\uD310\uC0AC"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -169,6 +184,7 @@ MonoBehaviour:
       \uADC0\uC871\uC758 \uD558\uC778\uC73C\uB85C\uC694."
     typingTime: 0.02
     speakerName: "\uC6D0\uACE0"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -179,6 +195,7 @@ MonoBehaviour:
       \uACC4\uC57D\uC774\uC5C8\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uC6D0\uACE0"
+    speakerJob: 
     nextDialogMethod: 1
     nextDialogIndex: 13
     dialogType: 0
@@ -189,6 +206,7 @@ MonoBehaviour:
       \uC788\uC2B5\uB2C8\uAE4C?"
     typingTime: 0.02
     speakerName: Player
+    speakerJob: "\uD310\uC0AC"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -199,7 +217,8 @@ MonoBehaviour:
       \uAE08\uC9C0\uD588\uACE0, \uC81C \uC218\uC785\uC758 \uC808\uBC18\uC744 \uAC15\uC81C\uB85C
       \uAC00\uC838\uAC14\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
     nextDialogIndex: 13
     dialogType: 0
@@ -209,6 +228,7 @@ MonoBehaviour:
   - textData: "\uC99D\uAC70\uAC00 \uC788\uC2B5\uB2C8\uAE4C?"
     typingTime: 0.02
     speakerName: Player
+    speakerJob: "\uD310\uC0AC"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -218,7 +238,8 @@ MonoBehaviour:
   - textData: "\uB124, \uC138 \uACC4\uC57D \uBAA8\uB450 \uAE30\uB85D\uAD00 \uB9C8\uB974\uCF08\uB8E8\uC2A4\uC5D0\uAC8C\uC11C
       \uBC1B\uC740 \uC0AC\uBCF8\uC774 \uC788\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
     nextDialogIndex: 13
     dialogType: 0
@@ -227,7 +248,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC774\uC81C \uD53C\uACE0, \uAC08\uB8E8\uC2A4\uB97C \uBD80\uB974\uACA0\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -236,7 +258,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uD53C\uACE0, \uC9C4\uC220\uD558\uC2ED\uC2DC\uC624."
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -245,7 +268,8 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC73C\uC74C... \uC804 \uC800 \uC544\uC774\uB97C \uD314\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4!"
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
+    speakerName: "\uAC08\uB8E8\uC2A4"
+    speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -255,7 +279,8 @@ MonoBehaviour:
   - textData: "\uCCAB \uBC88\uC9F8, \uB450 \uBC88\uC9F8\uB294 \uB9DE\uC544\uC694.
       \uBA39\uACE0 \uC0B4\uAE30 \uC704\uD574 \uC5B4\uCA54 \uC218 \uC5C6\uC5C8\uC8E0."
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
+    speakerName: "\uAC08\uB8E8\uC2A4"
+    speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -266,6 +291,7 @@ MonoBehaviour:
       \uB3C4\uC640\uC900 \uAC83\uBFD0\uC785\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -275,6 +301,7 @@ MonoBehaviour:
   - textData: "\uC804 \uC2E4\uC81C\uB85C \uD310 \uC801 \uC5C6\uC2B5\uB2C8\uB2E4!"
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -285,6 +312,7 @@ MonoBehaviour:
       \uC5C6\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -295,6 +323,7 @@ MonoBehaviour:
       \uC774\uB7F0 \uC2DC\uB300\uAC00 \uC62C \uC904\uC740 \uBAB0\uB790\uAD70\uC694."
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -304,6 +333,7 @@ MonoBehaviour:
   - textData: "\uC8FC\uAD50\uB2D8, \uD53C\uACE0\uC5D0\uAC8C \uC9C8\uBB38\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
+    speakerJob: 
     nextDialogMethod: 1
     nextDialogIndex: 36
     dialogType: 1
@@ -319,6 +349,7 @@ MonoBehaviour:
   - textData: "\uC138 \uBC88\uC9F8 \uACC4\uC57D\uC5D0 \uC11C\uBA85\uD558\uC168\uC2B5\uB2C8\uAE4C?"
     typingTime: 0.02
     speakerName: Player
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -329,6 +360,7 @@ MonoBehaviour:
       \uBFD0\uC774\uC5C8\uC2B5\uB2C8\uB2E4. \uB3C8\uB3C4 \uBC1B\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4!"
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
+    speakerJob: 
     nextDialogMethod: 1
     nextDialogIndex: 29
     dialogType: 0
@@ -338,6 +370,7 @@ MonoBehaviour:
   - textData: "\uACC4\uC57D\uC758 \uB300\uAC00\uB85C \uBB34\uC5C7\uC744 \uBC1B\uC558\uC2B5\uB2C8\uAE4C?"
     typingTime: 0.02
     speakerName: Player
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -348,6 +381,7 @@ MonoBehaviour:
       \uAC00\uBB38\uACFC \uC798 \uC9C0\uB0B4\uACE0 \uC2F6\uC5C8\uC744 \uBFD0."
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
+    speakerJob: 
     nextDialogMethod: 1
     nextDialogIndex: 29
     dialogType: 0
@@ -357,6 +391,7 @@ MonoBehaviour:
   - textData: "\uBD80\uAD8C\uC744 \uD3EC\uAE30\uD560 \uC0DD\uAC01\uC740 \uC5C6\uC73C\uC2ED\uB2C8\uAE4C?"
     typingTime: 0.02
     speakerName: Player
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -367,6 +402,7 @@ MonoBehaviour:
       \uC544\uB4E4\uC785\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uD53C\uACE0"
+    speakerJob: 
     nextDialogMethod: 1
     nextDialogIndex: 29
     dialogType: 0
@@ -377,6 +413,7 @@ MonoBehaviour:
       \uB098\uC624\uC2ED\uC2DC\uC624."
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -386,6 +423,7 @@ MonoBehaviour:
   - textData: "\uC608, \uC8FC\uAD50\uB2D8."
     typingTime: 0.02
     speakerName: "\uAE30\uB85D\uAD00"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -395,6 +433,7 @@ MonoBehaviour:
   - textData: "\uCCAB \uBC88\uC9F8, \uB450 \uBC88\uC9F8 \uACC4\uC57D\uC740 \uBD84\uBA85\uD569\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uAE30\uB85D\uAD00"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -406,6 +445,7 @@ MonoBehaviour:
       \uC0AD\uC81C\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uAE30\uB85D\uAD00"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -417,6 +457,7 @@ MonoBehaviour:
       \uD568\uAED8 \uC788\uC5C8\uC2B5\uB2C8\uB2E4\u2026"
     typingTime: 0.02
     speakerName: "\uAE30\uB85D\uAD00"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -427,6 +468,7 @@ MonoBehaviour:
       \uB0B4\uB824\uC8FC\uC2ED\uC2DC\uC624."
     typingTime: 0.02
     speakerName: "\uAE30\uB85D\uAD00"
+    speakerJob: 
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0

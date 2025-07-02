@@ -4,6 +4,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 public class DialogManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] TypingText textUI;
     [SerializeField] GameObject choice;
     [SerializeField] GameObject endChoice;
+    [SerializeField] List<SpriteRenderer> characterList;
 
     [SerializeField]
     Animator anim;
@@ -18,6 +20,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] UI_Fade fadeUI;
 
     TextMeshProUGUI nameText;
+    TextMeshProUGUI jobText;
 
     Transform choiceGrid;
 
@@ -40,6 +43,7 @@ public class DialogManager : MonoBehaviour
     {
         choiceGrid = Util.FindChild(gameObject, "ChoiceGrid", true).transform;
         nameText = Util.FindChild<TextMeshProUGUI>(gameObject, "NameText", true);
+        jobText = Util.FindChild<TextMeshProUGUI>(gameObject, "JobText", true);
         trial = GameObject.Find("TrialRecord").GetComponent<TrialRecord>();
 
         textUI.endDialogAction += EndDialog;
@@ -131,6 +135,14 @@ public class DialogManager : MonoBehaviour
     void SetName()
     {
         nameText.text = curDialogData.speakerName;
+        jobText.text = curDialogData.speakerJob;
+        if(curDialogData.id > 0)
+            TalkAction(curDialogData.id);
+    }
+
+    void TalkAction(int id)
+    {
+        characterList[id].color = new Color(0.58f,0.58f,0.58f);
     }
 
     #region 선택지

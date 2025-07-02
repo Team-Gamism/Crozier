@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UI_Reputation : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI reputationText;
+    TextMeshProUGUI reputationText;
 
     private void Start()
     {

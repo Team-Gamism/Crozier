@@ -14,6 +14,12 @@ public class DialogData
     [Header("대화 캐릭터 이름")]
     public string speakerName;
 
+    [Header("대화 캐릭터 역할")]
+    public string speakerJob;
+
+    [Header("대화 캐릭터 ID")]
+    public int id = -1;
+
     [Header("다음 다이얼로그 Index")]
     public NextDialogMethod nextDialogMethod;
     public int nextDialogIndex;

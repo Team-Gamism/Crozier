@@ -13,11 +13,22 @@ MonoBehaviour:
   m_Name: Problem2-1
   m_EditorClassIdentifier: 
   dialogDataList:
+  - textData: "\uC8FC\uAD50\uB2D8\uC758 \uD310\uACB0\uC744 \uC804\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+    typingTime: 0.02
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
+    nextDialogMethod: 0
+    nextDialogIndex: 0
+    dialogType: 0
+    choiceList: []
+    isLastDialog: 0
+    isNoRecord: 1
   - textData: "\uD53C\uACE0\uB294 \uC790\uC2DD\uC744 \uC138 \uBC88\uC5D0 \uAC78\uCCD0
       \uD0C0\uC778\uC5D0\uAC8C \uB178\uC608 \uACC4\uC57D\uC73C\uB85C \uB118\uAE34
       \uAE30\uB85D\uC774 \uD655\uC778\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: Player
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -26,7 +37,8 @@ MonoBehaviour:
     isNoRecord: 1
   - textData: "\uD53C\uACE0\uC5D0\uAC8C \uBD80\uAD8C \uC0C1\uC2E4\uC744 \uBA85\uD569\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: Player
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -36,7 +48,8 @@ MonoBehaviour:
   - textData: "(\uC228\uC744 \uAE38\uAC8C \uB0B4\uC270\uB2E4) ...\uB4DC\uB514\uC5B4
       \uB05D\uC774\uAD70\uC694. "
     typingTime: 0.02
-    speakerName: "\uC6D0\uACE0"
+    speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
+    speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -47,17 +60,8 @@ MonoBehaviour:
       \uB450 \uBC88\uC774\uC5C8\uB2E4! \uB124 \uC5B4\uBBF8\uAC00 \uB9D0\uB838\uC73C\uBA74
       \uC138 \uBC88\uC9F8\uB294 \uC5C6\uC5C8\uC744 \uAC70\uB2E4!"
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
-    nextDialogMethod: 0
-    nextDialogIndex: 0
-    dialogType: 0
-    choiceList: []
-    isLastDialog: 0
-    isNoRecord: 1
-  - textData: "\uB54C\uB85C\uB294 \uB2E8\uC8C4\uBCF4\uB2E4 \uC774\uD574\uAC00 \uB354
-      \uD070 \uD798\uC774 \uB429\uB2C8\uB2E4."
-    typingTime: 0.02
-    speakerName: "\uC99D\uC778"
+    speakerName: "\uAC08\uB8E8\uC2A4"
+    speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
