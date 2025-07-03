@@ -17,6 +17,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -29,6 +30,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -41,6 +43,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -52,6 +55,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -64,6 +68,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -75,6 +80,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -86,6 +92,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -98,6 +105,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -109,6 +117,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -120,6 +129,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -130,6 +140,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -141,6 +152,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -153,6 +165,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -163,6 +176,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 1
     nextDialogIndex: 28
     dialogType: 1
@@ -183,7 +197,8 @@ MonoBehaviour:
   - textData: "\uC65C \uC544\uC774\uB4E4 \uC9D1 \uADFC\uCC98\uC5D0 \uC788\uC5C8\uC2B5\uB2C8\uAE4C?"
     typingTime: 0.02
     speakerName: Player
-    speakerJob: "\uD348\uC0E4"
+    speakerJob: "\uD310\uC0AC"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -195,6 +210,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -206,8 +222,9 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 1
-    nextDialogIndex: 14
+    nextDialogIndex: 13
     dialogType: 0
     choiceList: []
     isLastDialog: 0
@@ -217,6 +234,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: Player
     speakerJob: "\uD310\uC0AC"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -229,6 +247,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -240,8 +259,9 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 1
-    nextDialogIndex: 14
+    nextDialogIndex: 13
     dialogType: 0
     choiceList: []
     isLastDialog: 0
@@ -251,6 +271,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: Player
     speakerJob: "\uD310\uC0AC"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -261,6 +282,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -271,6 +293,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -279,10 +302,11 @@ MonoBehaviour:
     isNoRecord: 0
   - textData: "\uC81C\uAC00 \uAC04 \uB0A0\uACFC \uACB9\uCE5C \uAC83\uBFD0\uC785\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
-    speakerJob: 
+    speakerName: "\uB85C\uB124\uD2B8"
+    speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 1
-    nextDialogIndex: 14
+    nextDialogIndex: 13
     dialogType: 0
     choiceList: []
     isLastDialog: 0
@@ -291,6 +315,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: Player
     speakerJob: 
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -300,8 +325,9 @@ MonoBehaviour:
   - textData: "\uC5C6\uC2B5\uB2C8\uB2E4. \uC800\uB294 \uC790\uAD6D \uAC19\uC740 \uAC78
       \uB9CC\uB4E4\uC9C0 \uC54A\uC558\uACE0, \uBCF8 \uC801\uB3C4 \uC5C6\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
-    speakerJob: 
+    speakerName: "\uB85C\uB124\uD2B8"
+    speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -311,10 +337,11 @@ MonoBehaviour:
   - textData: "\uC544\uC774 \uBD80\uBAA8\uB4E4\uC774 \uB180\uB77C\uC11C \uBB54\uAC00\uB97C
       \uCC29\uAC01\uD588\uAC70\uB098, \uBB34\uC5B8\uAC00 \uBB3B\uC740 \uAC8C \uC544\uB2D0\uAE4C\uC694?"
     typingTime: 0.02
-    speakerName: "\uD53C\uACE0"
-    speakerJob: 
+    speakerName: "\uB85C\uB124\uD2B8"
+    speakerJob: "\uD53C\uACE0"
+    id: -1
     nextDialogMethod: 1
-    nextDialogIndex: 14
+    nextDialogIndex: 13
     dialogType: 0
     choiceList: []
     isLastDialog: 0
@@ -323,6 +350,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uC11C\uAE30"
     speakerJob: 
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -333,8 +361,9 @@ MonoBehaviour:
       \uC5F0\uACB0 \uACE0\uB9AC\uB97C \uC644\uC804\uD788 \uD574\uBA85\uD558\uC9C0\uB294
       \uBABB\uD588\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
-    speakerJob: 
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -344,8 +373,9 @@ MonoBehaviour:
   - textData: "\uB9C8\uC744 \uC8FC\uBBFC\uB4E4\uC758 \uBD88\uC2E0\uACFC \uACF5\uD3EC\uB294
       \uAE4A\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
-    speakerName: "\uC11C\uAE30"
-    speakerJob: 
+    speakerName: "\uB8E8\uCE74"
+    speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0
@@ -356,6 +386,7 @@ MonoBehaviour:
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
+    id: -1
     nextDialogMethod: 0
     nextDialogIndex: 0
     dialogType: 0

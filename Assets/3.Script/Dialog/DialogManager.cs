@@ -12,7 +12,15 @@ public class DialogManager : MonoBehaviour
     [SerializeField] TypingText textUI;
     [SerializeField] GameObject choice;
     [SerializeField] GameObject endChoice;
-    [SerializeField] List<SpriteRenderer> characterList;
+    [SerializeField] List<CharacterImfo> characterList;
+
+    [Serializable]
+    public class CharacterImfo
+    {
+        public string characterName;
+        public SpriteRenderer spriteRenderer;
+    }
+
 
     [SerializeField]
     Animator anim;
@@ -136,13 +144,22 @@ public class DialogManager : MonoBehaviour
     {
         nameText.text = curDialogData.speakerName;
         jobText.text = curDialogData.speakerJob;
-        if(curDialogData.id > 0)
-            TalkAction(curDialogData.id);
+        TalkAction();
     }
 
-    void TalkAction(int id)
+    void TalkAction()
     {
-        characterList[id].color = new Color(0.58f,0.58f,0.58f);
+       foreach(CharacterImfo character in characterList)
+        {
+            if(character.characterName == curDialogData.speakerName)
+            {
+                character.spriteRenderer.sortingOrder = 2;
+            }
+            else
+            {
+                character.spriteRenderer.sortingOrder = 0;
+            }
+        }
     }
 
     #region 선택지
