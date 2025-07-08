@@ -13,6 +13,8 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject choice;
     [SerializeField] GameObject endChoice;
     [SerializeField] List<CharacterImfo> characterList;
+    
+    AudioSource audioSource;
 
     [Serializable]
     public class CharacterImfo
@@ -53,6 +55,7 @@ public class DialogManager : MonoBehaviour
         nameText = Util.FindChild<TextMeshProUGUI>(gameObject, "NameText", true);
         jobText = Util.FindChild<TextMeshProUGUI>(gameObject, "JobText", true);
         trial = GameObject.Find("TrialRecord").GetComponent<TrialRecord>();
+        audioSource = GetComponent<AudioSource>();
 
         textUI.endDialogAction += EndDialog;
 
@@ -76,6 +79,11 @@ public class DialogManager : MonoBehaviour
     void StartDialog()
     {
         textUI.StopDialogSign();
+        if (curDialogData.dialogSound != null)
+        {
+            audioSource.clip = curDialogData.dialogSound;
+            audioSource.Play();
+        }
         if (curDialogData.dialogType == DialogType.Choice)
         {
             Remove_AllChoice();

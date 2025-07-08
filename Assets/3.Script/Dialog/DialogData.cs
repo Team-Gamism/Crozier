@@ -25,6 +25,9 @@ public class DialogData
     public DialogType dialogType;
     public List<ChoiceData> choiceList;
 
+    [Header("다이얼로그 사운드")]
+    public AudioClip dialogSound;
+
     [Space(10)]
     public bool isLastDialog;
 
