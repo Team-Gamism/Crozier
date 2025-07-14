@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Problem5-2
   m_EditorClassIdentifier: 
   dialogDataList:
-  - textData: "\uC8FC\uAD50\uB2D8\uC758 \uD310\uACB0\uC744 \uB0AD\uB3C5\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+  - textData: "\uC8FC\uAD50\uB2D8\uC758 \uD310\uACB0\uC744 \uD558\uACA0\uC2B5\uB2C8\uB2E4."
     typingTime: 0.02
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
@@ -21,7 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 2dcbf3b6082e9e5438c19528196845c9, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD608\uD1B5\uC740 \uB2E8\uC808\uB420 \uC218 \uC5C6\uB2E4."
@@ -32,7 +32,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: dfdd82c7f9bad1748b493ad5916ccc52, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uB9AC\uC544\uB294 \uC5EC\uC804\uD788 \uC5D0\uC6B0\uD398\uBBF8\uC544
@@ -44,7 +44,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: f0da67942c684344bb790da89428aa36, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD63C\uC778\uACFC \uADC0\uC18D\uC740 \uBC95\uC801 \uC815\uCCB4\uC131\uC744
@@ -56,7 +56,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 4e59036d230d373468ee8121e4ba20c6, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "(\uBD88\uB9CC) \uD63C\uC778\uC758 \uC2E0\uC131\uD568\uC744 \uBD80\uC815\uD558\uB294\uAC74

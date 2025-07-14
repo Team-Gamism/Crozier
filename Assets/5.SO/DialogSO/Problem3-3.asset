@@ -21,7 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 8b2efbe633a58c449a0b2472208ac2a5, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC99D\uAC70 \uC5C6\uB294 \uBD84\uB178\uB294 \uC815\uC758\uAC00 \uC544\uB2C8\uB2E4."
@@ -32,7 +32,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: d95e5c66ea55b9349944c6a55d904bb1, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD53C\uACE0 \uB85C\uB124\uD2B8\uB294 \uB9C8\uB140\uAC00 \uC544\uB2C8\uB2E4.
@@ -44,7 +44,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: f0c80c8496e2a7d4a900d97387bdea1c, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "(\uC6B8\uC74C\uC744 \uD130\uB728\uB9AC\uBA70 \uBB34\uB108\uC9C4\uB2E4.)"
@@ -67,6 +67,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 78889ff72744e8d49a1e16e171bd7d58, type: 3}
     isLastDialog: 1
     isNoRecord: 1
