@@ -30,7 +30,7 @@ public class StopReciever : MonoBehaviour, INotificationReceiver
                 director.Pause();
             else if (stopMarker.markerType == StopMarkerType.NextMarker)
             {
-                double time = NextDialog();
+                double time = NextStopMarker();
                 director.Stop();
                 director.time = time;
                 director.Evaluate(); 
@@ -40,7 +40,7 @@ public class StopReciever : MonoBehaviour, INotificationReceiver
         }
     }
 
-    public double NextDialog()
+    public double NextStopMarker()
     {
         var markers = stopTrack.GetMarkers().OrderBy(marker => marker.time);
 

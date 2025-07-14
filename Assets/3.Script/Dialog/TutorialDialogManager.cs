@@ -1,19 +1,19 @@
 using System.Collections.Generic;
 using System;
-using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using DG.Tweening;
+using System.Collections;
+using UnityEngine.Playables;
 
-public class DialogManager : MonoBehaviour
+public class TutorialDialogManager : MonoBehaviour
 {
-    [SerializeField]public DialogSO dialogSO;
+    [SerializeField] public DialogSO dialogSO;
     [SerializeField] TypingText textUI;
     [SerializeField] GameObject choice;
     [SerializeField] GameObject endChoice;
     [SerializeField] List<CharacterImfo> characterList;
-    
+    [SerializeField] PlayableDirector director;
     AudioSource audioSource;
 
     [Serializable]
@@ -83,7 +83,7 @@ public class DialogManager : MonoBehaviour
         audioSource.Stop();
         if (curDialogData.dialogSound != null)
         {
-            if (!isFirstChoice)
+            if (isFirstChoice)
             {
                 audioSource.clip = curDialogData.dialogSound;
                 audioSource.Play();
@@ -103,7 +103,7 @@ public class DialogManager : MonoBehaviour
         }
         SetName();
 
-        if(!curDialogData.isNoRecord)
+        if (!curDialogData.isNoRecord)
             AddData(curDialogData);
     }
     void AddData(DialogData data)
@@ -131,6 +131,7 @@ public class DialogManager : MonoBehaviour
 
     void Disappear()
     {
+        director.Play();
         dialogDisappearAction?.Invoke();
 
         gameObject.SetActive(false);
@@ -150,7 +151,7 @@ public class DialogManager : MonoBehaviour
                 if (!curDialogData.isLastDialog)
                     NextDialog();
                 else
-                    Disappear();  
+                    Disappear();
             }
         }
     }
@@ -164,9 +165,9 @@ public class DialogManager : MonoBehaviour
 
     void TalkAction()
     {
-       foreach(CharacterImfo character in characterList)
+        foreach (CharacterImfo character in characterList)
         {
-            if(character.characterName == curDialogData.speakerName)
+            if (character.characterName == curDialogData.speakerName)
             {
                 character.spriteRenderer.sortingOrder = 2;
             }
@@ -260,5 +261,4 @@ public class DialogManager : MonoBehaviour
         }
     }
     #endregion
-
 }

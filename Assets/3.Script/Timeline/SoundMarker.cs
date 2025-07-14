@@ -2,9 +2,9 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-public class StopMarker : Marker, INotification, INotificationOptionProvider
+public class SoundMarker : Marker, INotification, INotificationOptionProvider
 {
-    public StopMarkerType markerType;
+    public AudioClip clip;
 
     [Space(20)]
     [SerializeField] bool retroative = false;
@@ -14,13 +14,4 @@ public class StopMarker : Marker, INotification, INotificationOptionProvider
     public PropertyName id => new PropertyName();
     public NotificationFlags flags => (retroative ? NotificationFlags.Retroactive : default)
         | (emitOnce ? NotificationFlags.TriggerOnce : default);
-}
-
-public enum StopMarkerType
-{
-    Resume,
-    NextMarker,
-    NoStop,
-    End,
-    Remove
 }

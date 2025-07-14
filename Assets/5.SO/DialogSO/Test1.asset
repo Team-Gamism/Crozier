@@ -21,6 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: adc0f01783c51a747b96bd18dd9d1ace, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD53C\uACE0 \uBE4C \uC7A5\uC740 \uBD84\uBA85 \uBC94\uBC95\uC744 \uC800\uC9C8\uB800\uC73C\uB098,
@@ -32,6 +33,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 9f1b88a2c6cfd5a4b93f40adade15d1d, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uADF8\uB7EC\uB098 \uBC95\uC740 \uBC95\uC785\uB2C8\uB2E4. \uD6D4\uCE5C
@@ -44,6 +46,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 654140af91f13144b85660312f284034, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC774 \uC815\uB3C4\uBA74... \uB0A9\uB4DD\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
@@ -54,6 +57,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 02a13a99aa6bd544d8024d1d73545adc, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uB124... \uB2F9\uC5F0\uD55C \uCC98\uBD84\uC774\uB77C \uC0DD\uAC01\uD569\uB2C8\uB2E4."
@@ -64,6 +68,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 1c38c16d51023b242b3c51dc38839404, type: 3}
     isLastDialog: 1
     isNoRecord: 1
   - textData: "\uADF8\uB0A0\uC758 \uBC30\uACE0\uD514\uC744... \uB2E4\uC2DC\uB294
@@ -75,6 +80,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 2b2578d42c2b77d4dbe864f2bcfa6039, type: 3}
     isLastDialog: 1
     isNoRecord: 1
   - textData: "\uC790\uBE44\uC640 \uC815\uC758 \uC0AC\uC774, \uC624\uB298\uC740 \uADF8
@@ -86,6 +92,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: c4a611540463d5f4e8b00dbebf15a2f2, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC8FC\uAD50\uB2D8\uC774\uB77C\uBA74 \uB2E4\uB978 \uC7AC\uD310\uB4E4\uB3C4
@@ -97,5 +104,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: c22b8a3c3563af1418e1924cdb9fe8ec, type: 3}
     isLastDialog: 1
     isNoRecord: 1

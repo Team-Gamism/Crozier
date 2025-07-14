@@ -21,6 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD589\uC704\uAC00 \uD574\uB97C \uB07C\uCCE4\uB2E4\uBA74 \uC8C4\uB97C
@@ -32,6 +33,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD53C\uACE0\uB294 \uD68C\uAC1C\uC758 \uACE0\uD1B5\uC744 \uAC70\uCCD0,
@@ -43,6 +45,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "(\uB85C\uB124\uD2B8\uAC00 \uACE0\uAC1C\uB97C \uB5A8\uAD70\uB2E4.)
@@ -55,5 +58,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: eed658654903080408ef1775ff805eeb, type: 3}
     isLastDialog: 1
     isNoRecord: 1

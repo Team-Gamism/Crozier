@@ -21,6 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC99D\uAC70 \uC5C6\uB294 \uBD84\uB178\uB294 \uC815\uC758\uAC00 \uC544\uB2C8\uB2E4."
@@ -31,6 +32,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD53C\uACE0 \uB85C\uB124\uD2B8\uB294 \uB9C8\uB140\uAC00 \uC544\uB2C8\uB2E4.
@@ -42,9 +44,10 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
-  - textData: "\uC8FC\uAD50\uB2D8 \uC815\uB9D0 \uAC10\uC0AC\uD569\uB2C8\uB2E4..."
+  - textData: "(\uC6B8\uC74C\uC744 \uD130\uB728\uB9AC\uBA70 \uBB34\uB108\uC9C4\uB2E4.)"
     typingTime: 0.02
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
@@ -52,6 +55,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 4562160839b295e4b8335a923138ae36, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "(\uC791\uAC8C \uC6C5\uC131\uC778\uB2E4)\uADF8\uB798\uB3C4 \uC774\uC0C1\uD574\u2026
@@ -63,5 +67,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 1
     isNoRecord: 1

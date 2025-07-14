@@ -21,6 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD53C\uACE0 \uC54C\uBE44\uB204\uC2A4\uB294 \uC6D0\uACE0\uC5D0\uAC8C
@@ -32,6 +33,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC790\uC2E0\uC774 \uD638\uCD9C\uD55C \uC218\uB808\uC758 \uC6B4\uC1A1\uBE44
@@ -43,6 +45,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC9C0\uBCD1\uC740 \uB3D9\uC815\uC758 \uB300\uC0C1\uC774 \uB420 \uC218\uB294
@@ -55,6 +58,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uAC10\uC0AC\uD569\uB2C8\uB2E4, \uC8FC\uAD50\uB2D8. \uC815\uC758\uB85C\uC6B4
@@ -66,6 +70,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 36bc3fdf7b19b7340abbfa25d69ea4ed, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "(\uC501\uC4F8\uD558\uAC8C \uC6C3\uC73C\uBA70) \uC5ED\uC2DC \uB3C8
@@ -77,6 +82,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 85dee7df9f8898c45b3280d307304b57, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uAC1A\uACA0\uC2B5\uB2C8\uB2E4. \uBC95\uC815\uC5D0\uC11C\uB4E0, \uB0B4
@@ -88,6 +94,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 0c1f15ceda3ffff43a118fa2c624dea7, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uACE0\uD1B5\uC740 \uC774\uD574\uBC1B\uC744 \uC218 \uC788\uC9C0\uB9CC,
@@ -100,5 +107,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 0}
     isLastDialog: 1
     isNoRecord: 1

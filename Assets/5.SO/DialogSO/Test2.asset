@@ -21,6 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: adc0f01783c51a747b96bd18dd9d1ace, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uBE75 \uD55C \uC870\uAC01\uC774\uB77C \uD560\uC9C0\uB77C\uB3C4, \uADF8
@@ -33,6 +34,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 1d207c26dd4cec94e9f26102b52f01c2, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD53C\uACE0 \uBE4C \uC7A5\uC740 7\uC77C\uAC04\uC758 \uAC10\uAE08\uD615\uC744
@@ -44,6 +46,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 75d94ae656fc9c34ea4d81489e7ad89f, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "...\uC8C4\uC1A1\uD569\uB2C8\uB2E4... \uBC30\uAC00 \uACE0\uD504\uB2E4\uB294
@@ -55,6 +58,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: cf8c2c88172c75e4cac6b94cf94a5f55, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uBC95\uC740 \uADF8\uB7F0 \uAC81\uB2C8\uB2E4. \uC544\uBB34\uB9AC \uC0AC\uC815\uC774
@@ -67,6 +71,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: f1b0b4186707b5346a1571b216acda55, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uAD76\uC8FC\uB9BC\uBCF4\uB2E4 \uBB34\uC11C\uC6B4 \uAC83\uC740, \uBC95\uC744
@@ -78,6 +83,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: 9489609fe47bfe941ada00e1bc8417fa, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC8FC\uAD50\uB2D8\uC774\uB77C\uBA74 \uB2E4\uB978 \uC7AC\uD310\uB4E4\uB3C4
@@ -89,5 +95,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
+    dialogSound: {fileID: 8300000, guid: c22b8a3c3563af1418e1924cdb9fe8ec, type: 3}
     isLastDialog: 1
     isNoRecord: 1

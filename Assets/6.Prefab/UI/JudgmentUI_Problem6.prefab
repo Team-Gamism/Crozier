@@ -61,7 +61,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!114 &5760286307401202475
 MonoBehaviour:
@@ -266,8 +266,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD53C\uACE0\uB294 \uCC44\uBB34\uB97C \uAC1A\uACE0\n\uC6D0\uACE0\uB294
-    \uC6B4\uC1A1\uBE44\uB97C \uBD80\uB2F4\uD560 \uAC83"
+  m_text: "\uCC44\uBB34 \uAC1A\uACE0 \uC6B4\uC1A1\uBE44 \uBA74\uC81C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}
   m_sharedMaterial: {fileID: -5460286888530709400, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}
@@ -294,7 +293,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.2
+  m_fontSize: 50
   m_fontSizeBase: 37
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -941,8 +940,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD53C\uACE0\uB294 \uCC44\uBB34\uB97C \uAC1A\uACE0\n\uC6B4\uC1A1\uBE44\uB97C
-    \uBD80\uB2F4\uD560 \uAC83"
+  m_text: "\uCC44\uBB34, \uC6B4\uC1A1\uBE44 \uBD80\uB2F4"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}
   m_sharedMaterial: {fileID: -5460286888530709400, guid: 4e72e23e34c5a784ba7817e41b413307, type: 2}

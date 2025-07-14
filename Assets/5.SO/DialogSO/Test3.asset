@@ -21,7 +21,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: adc0f01783c51a747b96bd18dd9d1ace, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC774 \uC7AC\uD310\uC740 \uB2E8\uC21C\uD55C \uB3C4\uB451\uC9C8\uC774
@@ -33,7 +33,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 16337d6341aef194faae090efa15bf80, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uD53C\uACE0 \uBE4C\uC740 \uBB34\uC8C4\uB97C \uC120\uACE0\uD569\uB2C8\uB2E4."
@@ -44,7 +44,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 37689adac0f760e40b945e3e3dffd982, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "...\uC8FC\uAD50\uB2D8... \uAC10\uC0AC\uD569\uB2C8\uB2E4... \uB2E4\uC2DC\uB294...
@@ -57,7 +57,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 50db32c556ebca246ac76707168ef4ac, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC774\uB7F0 \uC2DD\uC774\uBA74 \uC55E\uC73C\uB85C \uB2E4\uB4E4 \uBE75\uC744
@@ -69,7 +69,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: d92cc16673fcf874d8ef9ab1f242e84e, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC8FC\uAD50\uB2D8, \uC774\uAC74 \uC62C\uBC14\uB978 \uC120\uB840\uAC00
@@ -81,7 +81,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: a6726231f2103ff4f90ce92ff3df45de, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uB54C\uB85C\uB294, \uAC00\uC7A5 \uC791\uC740 \uC8C4\uAC00 \uAC00\uC7A5
@@ -93,7 +93,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 44aedf67261d09c4c917d5dabff9e18b, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC624\uB298\uC740, \uC815\uC758\uBCF4\uB2E4 \uC778\uAC04\uC758 \uBCF8\uC131\uC5D0
@@ -105,7 +105,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 7ad01c6a71ef2aa44adc87ba3d66198c, type: 3}
     isLastDialog: 0
     isNoRecord: 1
   - textData: "\uC8FC\uAD50\uB2D8\uC774\uB77C\uBA74 \uB2E4\uB978 \uC7AC\uD310\uB4E4\uB3C4
@@ -117,6 +117,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: c22b8a3c3563af1418e1924cdb9fe8ec, type: 3}
     isLastDialog: 1
     isNoRecord: 1
