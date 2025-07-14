@@ -22,7 +22,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: 9cc4bd6e249865e42aa7d5f2ba8e85ea, type: 3}
+    dialogSound: {fileID: 8300000, guid: 01385287b2c878449b7ca5f0a69c9743, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC6D0\uACE0 \uC5D0\uB108\uC2A4, \uC9C4\uC220\uD558\uC2ED\uC2DC\uC624."
@@ -33,7 +33,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: 2845a7c559cd0c84991e3aaf17b6c655, type: 3}
+    dialogSound: {fileID: 8300000, guid: 6fd33bc90d2f48943b79cbda80e03a70, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC8FC\uAD50\uB2D8! \uC800\uC790\uAC00 \uC81C \uAC00\uAC8C\uC5D0\uC11C
@@ -74,7 +74,7 @@ MonoBehaviour:
       choiceText: "\uBE75\uC744 \uD6D4\uCE5C\uAC74 \uC5B8\uC81C\uC785\uB2C8\uAE4C?"
     - startDialogIndex: 10
       choiceText: "\uADF8 \uBE75\uC740 \uB9DB\uC788\uB294 \uBE75\uC774\uC5C8\uC2B5\uB2C8\uAE4C?"
-    dialogSound: {fileID: 8300000, guid: eac48b451b6e115489e87bc04cbe18d6, type: 3}
+    dialogSound: {fileID: 8300000, guid: 426975669f066444398030a247b7a26c, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uD6D4\uCE5C \uBE75\uC740 \uC5BC\uB9C8\uC600\uC2B5\uB2C8\uAE4C?"
@@ -166,7 +166,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: ab686e90301a41e4fafadf3df38702f1, type: 3}
+    dialogSound: {fileID: 8300000, guid: b78b17975daafff4e8a41e1762b9d92f, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC798 \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4. \uD53C\uACE0 \uBE4C \uC7A5,
@@ -178,7 +178,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: 83af61881251ce24a91b81f72c6c4618, type: 3}
+    dialogSound: {fileID: 8300000, guid: f56edbea25bb7114d94e576f21357e5a, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC8FC\uAD50\uB2D8.. \uC800\uB294 \uC8C4\uC778\uC785\uB2C8\uB2E4...."
@@ -262,7 +262,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: 6c24f823640de4a4c915471feaac5e6e, type: 3}
+    dialogSound: {fileID: 8300000, guid: 0c01cd916da80ca4691c8379e07d9cda, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC9C4\uC220\uC5D0 \uB300\uD574 \uC5EC\uCB59\uACE0 \uC2F6\uC740 \uC810
@@ -281,7 +281,7 @@ MonoBehaviour:
     - startDialogIndex: 26
       choiceText: "\uBE75\uC774 \uC5C6\uC73C\uBA74 \uCF00\uC774\uD06C\uB97C \uBA39\uC73C\uBA74
         \uB418\uB294\uAC70 \uC544\uB2CC\uAC00\uC694?"
-    dialogSound: {fileID: 8300000, guid: eac48b451b6e115489e87bc04cbe18d6, type: 3}
+    dialogSound: {fileID: 8300000, guid: 426975669f066444398030a247b7a26c, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uAD6C\uAC78\uD560 \uC0DD\uAC01\uC740 \uC65C \uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uAE4C?"
@@ -361,7 +361,7 @@ MonoBehaviour:
     nextDialogIndex: 21
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: fdb3f99e4be7c394cb5498f49b96d063, type: 3}
+    dialogSound: {fileID: 8300000, guid: 90a47e87e96cb71499bee8f52cc3d438, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC8FC\uAD50\uB2D8, \uC6D0\uACE0\uC640 \uD53C\uACE0\uC758 \uC9C4\uC220\uC744
@@ -373,7 +373,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: 37c1082ae374c664dbe4cf177c0e5d60, type: 3}
+    dialogSound: {fileID: 8300000, guid: 37b0b190f70092246903daa9dbf48cc1, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC774\uC81C \uD310\uACB0\uC744 \uB0B4\uB824\uC8FC\uC2ED\uC2DC\uC624."
@@ -384,6 +384,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: 2a78e022b4582a8429689d729c1c3a18, type: 3}
+    dialogSound: {fileID: 8300000, guid: 597126059c2055349a9757cb7c15e742, type: 3}
     isLastDialog: 1
     isNoRecord: 0
