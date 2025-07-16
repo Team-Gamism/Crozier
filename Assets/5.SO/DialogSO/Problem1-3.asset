@@ -116,5 +116,5 @@ MonoBehaviour:
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: e1caedb945bd00f4ab732cb17e79e324, type: 3}
-    isLastDialog: 0
+    isLastDialog: 1
     isNoRecord: 1

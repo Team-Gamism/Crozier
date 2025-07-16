@@ -33,10 +33,10 @@ public class StopReciever : MonoBehaviour, INotificationReceiver
                 double time = NextStopMarker();
                 director.Stop();
                 director.time = time;
-                director.Evaluate(); 
+                director.Evaluate();
             }
-            else if(stopMarker.markerType == StopMarkerType.End)
-                director.gameObject.SetActive(false);
+            else if (stopMarker.markerType == StopMarkerType.End)
+                Destroy(director.gameObject);
         }
     }
 

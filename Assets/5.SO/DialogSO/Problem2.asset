@@ -137,15 +137,15 @@ MonoBehaviour:
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 1
-    nextDialogIndex: 21
+    nextDialogIndex: 18
     dialogType: 1
     choiceList:
-    - startDialogIndex: 14
+    - startDialogIndex: 11
       choiceText: "\uC138 \uBC88\uC758 \uACC4\uC57D \uB0B4\uC6A9\uC744 \uC124\uBA85\uD574\uBCF4\uC2ED\uC2DC\uC624"
-    - startDialogIndex: 17
+    - startDialogIndex: 14
       choiceText: "\uC544\uC9C1\uB3C4 \uC544\uBC84\uC9C0\uAC00 \uB2F9\uC2E0\uC744
         \uD1B5\uC81C\uD558\uACE0 \uC788\uC2B5\uB2C8\uAE4C?"
-    - startDialogIndex: 19
+    - startDialogIndex: 16
       choiceText: "\uC99D\uAC70\uAC00 \uC788\uC2B5\uB2C8\uAE4C?"
     dialogSound: {fileID: 8300000, guid: 0da171752f763c441af2ff711d7aaf23, type: 3}
     isLastDialog: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: e68e91281b6b12e448d264cc9646de06, type: 3}
+    dialogSound: {fileID: 8300000, guid: ca228a10b6f0db6438bcc295e4b8ef8d, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uBAA8\uB450 \uC81C \uC758\uC9C0\uC640 \uBB34\uAD00\uD558\uAC8C \uC774\uB8E8\uC5B4\uC9C4
@@ -180,10 +180,10 @@ MonoBehaviour:
     speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
     speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 12
+    nextDialogIndex: 10
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 8300000, guid: ca228a10b6f0db6438bcc295e4b8ef8d, type: 3}
+    dialogSound: {fileID: 8300000, guid: e68e91281b6b12e448d264cc9646de06, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC544\uC9C1\uB3C4 \uC544\uBC84\uC9C0\uAC00 \uB2F9\uC2E0\uC744 \uD1B5\uC81C\uD558\uACE0
@@ -205,7 +205,7 @@ MonoBehaviour:
     speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
     speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 12
+    nextDialogIndex: 10
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: b30a4b3b7a5c4e04c8ea290bc9b6be8f, type: 3}
@@ -228,7 +228,7 @@ MonoBehaviour:
     speakerName: "\uB8E8\uD0A4\uC6B0\uC2A4"
     speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 12
+    nextDialogIndex: 10
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: ec20428180dc07643942a672860ec3dd, type: 3}
@@ -331,14 +331,14 @@ MonoBehaviour:
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 1
-    nextDialogIndex: 36
+    nextDialogIndex: 33
     dialogType: 1
     choiceList:
-    - startDialogIndex: 30
+    - startDialogIndex: 27
       choiceText: "\uC138 \uBC88\uC9F8 \uACC4\uC57D\uC5D0 \uC11C\uBA85\uD558\uC168\uC2B5\uB2C8\uAE4C?"
-    - startDialogIndex: 32
+    - startDialogIndex: 29
       choiceText: "\uACC4\uC57D\uC758 \uB300\uAC00\uB85C \uBB34\uC5C7\uC744 \uBC1B\uC558\uC2B5\uB2C8\uAE4C?"
-    - startDialogIndex: 34
+    - startDialogIndex: 31
       choiceText: "\uBD80\uAD8C\uC744 \uD3EC\uAE30\uD560 \uC0DD\uAC01\uC740 \uC5C6\uC73C\uC2ED\uB2C8\uAE4C?"
     dialogSound: {fileID: 8300000, guid: 64125386463d33b42ace466bf671eb2d, type: 3}
     isLastDialog: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
     speakerName: "\uAC08\uB8E8\uC2A4"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 29
+    nextDialogIndex: 26
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: cbaabc657d5fa6341ae3774171246458, type: 3}
@@ -383,7 +383,7 @@ MonoBehaviour:
     speakerName: "\uAC08\uB8E8\uC2A4"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 29
+    nextDialogIndex: 26
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: ed086f736054496469646e912dd81e85, type: 3}
@@ -406,7 +406,7 @@ MonoBehaviour:
     speakerName: "\uAC08\uB8E8\uC2A4"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 29
+    nextDialogIndex: 26
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: 2c63297f8383de648986243cbe68bc1d, type: 3}

@@ -323,17 +323,17 @@ MonoBehaviour:
     speakerName: "\uB8E8\uCE74"
     speakerJob: "\uC11C\uAE30"
     nextDialogMethod: 1
-    nextDialogIndex: 36
+    nextDialogIndex: 34
     dialogType: 1
     choiceList:
-    - startDialogIndex: 28
+    - startDialogIndex: 26
       choiceText: "\uD63C\uC778 \uACC4\uC57D\uC11C\uC5D0 \uADC0\uC18D\uC870\uD56D\uC774
         \uBA85\uC2DC\uB418\uC5C8\uC2B5\uB2C8\uAE4C?"
-    - startDialogIndex: 30
+    - startDialogIndex: 28
       choiceText: "\uC9C0\uCC38\uAE08\uC740 \uBC18\uD658 \uBD88\uAC00\uD569\uB2C8\uAE4C?"
-    - startDialogIndex: 32
+    - startDialogIndex: 30
       choiceText: "\uC544\uBC84\uC9C0\uC758 \uC720\uC5B8\uC7A5\uC740 \uACF5\uC99D\uB418\uC5C8\uC2B5\uB2C8\uAE4C?"
-    - startDialogIndex: 34
+    - startDialogIndex: 32
       choiceText: "\uB9AC\uC544\uB294 \uCE5C\uAC00 \uC0C1\uC18D\uC744 \uC2E4\uC81C\uB85C
         \uBC1B\uC558\uC2B5\uB2C8\uAE4C?"
     dialogSound: {fileID: 8300000, guid: 6e05a07b33ba8a9488c01d97b98aeb56, type: 3}
@@ -358,7 +358,7 @@ MonoBehaviour:
     speakerName: "\uBC14\uB974\uD1A8\uB85C\uBA54\uC624"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 27
+    nextDialogIndex: 25
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: 672babde0a084464d9e2077277e69579, type: 3}
@@ -382,7 +382,7 @@ MonoBehaviour:
     speakerName: "\uC728\uB9AC\uC6B0\uC2A4"
     speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 27
+    nextDialogIndex: 25
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: df2005a0645644b48bdbddb6990952ba, type: 3}
@@ -405,7 +405,7 @@ MonoBehaviour:
     speakerName: "\uC728\uB9AC\uC6B0\uC2A4"
     speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 27
+    nextDialogIndex: 25
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: 41c7d9d4dfed8d642b4753b8b00424f7, type: 3}
@@ -429,7 +429,7 @@ MonoBehaviour:
     speakerName: "\uC728\uB9AC\uC6B0\uC2A4"
     speakerJob: "\uC6D0\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 27
+    nextDialogIndex: 25
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: ad975cd2d9ea01347bc9346af44ed138, type: 3}

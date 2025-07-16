@@ -83,7 +83,7 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 103bece5e7a73124e91f7eeded390e8f, type: 3}
     isLastDialog: 0
     isNoRecord: 0
   - textData: "\uC544\uC774\uB4E4\uC774 \uC544\uD504\uAE30 \uC804, \uADF8 \uC9D1\uC5D0
@@ -210,7 +210,7 @@ MonoBehaviour:
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 13
+    nextDialogIndex: 12
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: 3efe64f4e89bea44cb57b88d5888793b, type: 3}
@@ -247,7 +247,7 @@ MonoBehaviour:
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 13
+    nextDialogIndex: 12
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: 2af24faedeabfd64698a2c2f597d5a0b, type: 3}
@@ -292,7 +292,7 @@ MonoBehaviour:
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 13
+    nextDialogIndex: 12
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: 7f866204ecf93e6428343a1934c9e649, type: 3}
@@ -327,7 +327,7 @@ MonoBehaviour:
     speakerName: "\uB85C\uB124\uD2B8"
     speakerJob: "\uD53C\uACE0"
     nextDialogMethod: 1
-    nextDialogIndex: 13
+    nextDialogIndex: 12
     dialogType: 0
     choiceList: []
     dialogSound: {fileID: 8300000, guid: dbf23bea4f7789d48b7bb39ed0b0465f, type: 3}
@@ -377,6 +377,6 @@ MonoBehaviour:
     nextDialogIndex: 0
     dialogType: 0
     choiceList: []
-    dialogSound: {fileID: 0}
+    dialogSound: {fileID: 8300000, guid: 2dcbf3b6082e9e5438c19528196845c9, type: 3}
     isLastDialog: 1
     isNoRecord: 0

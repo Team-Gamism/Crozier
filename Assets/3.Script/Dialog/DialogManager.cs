@@ -45,7 +45,6 @@ public class DialogManager : MonoBehaviour
 
     bool canDoNextDialog = false;
     int dialogIndex = 0;
-    bool isFirstChoice;
 
     private DialogData curDialogData;
 
@@ -57,7 +56,6 @@ public class DialogManager : MonoBehaviour
         jobText = Util.FindChild<TextMeshProUGUI>(gameObject, "JobText", true);
         trial = GameObject.Find("TrialRecord").GetComponent<TrialRecord>();
         audioSource = GetComponent<AudioSource>();
-        isFirstChoice = true;
         textUI.endDialogAction += EndDialog;
 
         SetDialogData(dialogIndex);
@@ -83,22 +81,18 @@ public class DialogManager : MonoBehaviour
         audioSource.Stop();
         if (curDialogData.dialogSound != null)
         {
-            if (!isFirstChoice)
-            {
+           
                 audioSource.clip = curDialogData.dialogSound;
                 audioSource.Play();
-            }
         }
         if (curDialogData.dialogType == DialogType.Choice)
         {
             Remove_AllChoice();
             Add_ChoicList();
             textUI.TypeingText(curDialogData);
-            isFirstChoice = false;
         }
         else
         {
-            isFirstChoice = true;
             textUI.TypeingText(curDialogData);
         }
         SetName();
